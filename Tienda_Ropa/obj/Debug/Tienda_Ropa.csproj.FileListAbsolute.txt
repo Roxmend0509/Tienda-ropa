@@ -1,0 +1,276 @@
+c:\users\marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmInventario.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmReportes.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.dll
+C:\Users\Marc\documents\visual studio 2015\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
+F:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+F:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe
+F:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
+F:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.dll
+F:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
+F:\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmInventario.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmReportes.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.cache
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.compiled
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpCategorias.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpClientes.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProductos.resources
+F:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProveedores.resources
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusCategoria.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusClientes.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProducto.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProveedor.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmInventario.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoCategorias.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoClientes.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProductos.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProveedores.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpCategorias.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpClientes.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProductos.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProveedores.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmReportes.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.cache
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.compiled
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\Tienda_Ropa\Tienda_Ropa\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+G:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+G:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe
+G:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
+G:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.dll
+G:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
+G:\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusCategoria.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusClientes.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProducto.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProveedor.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmInventario.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoCategorias.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoClientes.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProductos.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProveedores.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpCategorias.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpClientes.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProductos.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProveedores.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmReportes.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.cache
+G:\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.compiled
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusCategoria.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusClientes.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProducto.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProveedor.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmInventario.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoCategorias.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoClientes.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProductos.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProveedores.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpCategorias.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpClientes.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProductos.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProveedores.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmReportes.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.cache
+D:\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.compiled
+C:\Users\Marc\Documents\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+C:\Users\Marc\Documents\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+C:\Users\Marc\Documents\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusCategoria.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusClientes.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProducto.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProveedor.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmInventario.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoCategorias.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoClientes.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProductos.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProveedores.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpCategorias.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpClientes.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProductos.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProveedores.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmReportes.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.cache
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\obj\Debug\RdlCompile.compiled
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Marc\Desktop\BD\Tienda_Ropa\Tienda_Ropa\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.dll
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusCategoria.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusClientes.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProducto.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProveedor.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmInventario.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoCategorias.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoClientes.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProductos.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProveedores.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpCategorias.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpClientes.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProductos.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProveedores.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmReportes.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
