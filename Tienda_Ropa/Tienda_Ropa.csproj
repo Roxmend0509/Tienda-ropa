@@ -182,11 +182,11 @@
     <Compile Include="PRESENTACION\frmProveedores.Designer.cs">
       <DependentUpon>frmProveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="PRESENTACION\frmReportes.cs">
+    <Compile Include="PRESENTACION\frmReporte.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PRESENTACION\frmReportes.Designer.cs">
-      <DependentUpon>frmReportes.cs</DependentUpon>
+    <Compile Include="PRESENTACION\frmReporte.Designer.cs">
+      <DependentUpon>frmReporte.cs</DependentUpon>
     </Compile>
     <Compile Include="PRESENTACION\frmVentas.cs">
       <SubType>Form</SubType>
@@ -256,8 +256,8 @@
     <EmbeddedResource Include="PRESENTACION\frmProveedores.resx">
       <DependentUpon>frmProveedores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PRESENTACION\frmReportes.resx">
-      <DependentUpon>frmReportes.cs</DependentUpon>
+    <EmbeddedResource Include="PRESENTACION\frmReporte.resx">
+      <DependentUpon>frmReporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRESENTACION\frmVentas.resx">
       <DependentUpon>frmVentas.cs</DependentUpon>

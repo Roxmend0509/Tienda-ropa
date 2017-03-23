@@ -268,9 +268,9 @@ C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
-C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmReportes.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmReporte.resources

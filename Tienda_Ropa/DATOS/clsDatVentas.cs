@@ -94,6 +94,8 @@ namespace Tienda_Ropa.DATOS
             return vd;
         }
 
+
+
         public POJOS.clsNegVentas insertarVD(ref POJOS.clsNegVentas objPr)
         {
             try {
@@ -173,6 +175,28 @@ namespace Tienda_Ropa.DATOS
             conexion.Close();
             conexion.Dispose();
             return detalles;
+        }
+
+        public void reporte(DataGridView dvgDatos)
+        {
+            // Se abre la conexion
+            conectar();
+
+            // Se crea un DataTable que almacenará los datos desde donde se cargaran los datos al DataGridView
+            DataTable dtDatos = new DataTable();
+
+            // Se crea un MySqlAdapter para obtener los datos de la base
+            MySqlDataAdapter mdaDatos = new MySqlDataAdapter("select idventa as folio, fecha, total, IDCLIENTE as Cliente from ventas;", conexion);
+
+            // Con la información del adaptador se rellena el DataTable
+            mdaDatos.Fill(dtDatos);
+
+            // Se asigna el DataTable como origen de datos del DataGridView
+            dvgDatos.DataSource = dtDatos;
+
+            // Se cierra la conexión a la base de datos
+            conexion.Close();
+            conexion.Dispose();
         }
 
     }

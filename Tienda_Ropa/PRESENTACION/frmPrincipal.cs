@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tienda_Ropa.DATOS;
 
 namespace Tienda_Ropa
 {
@@ -68,8 +69,7 @@ namespace Tienda_Ropa
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            frmReportes reporte = new frmReportes();
-                reporte.ShowDialog();
+            new PRESENTACION.frmReporte().ShowDialog();
 
         }
 
