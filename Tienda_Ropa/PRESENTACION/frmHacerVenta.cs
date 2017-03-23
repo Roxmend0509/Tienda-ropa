@@ -56,7 +56,6 @@ namespace Tienda_Ropa.PRESENTACION
             if (col1Items.Count > 1)
             {
                 venta.Fecha = Fecha;
-                //venta.IVA = iva;
                 venta.IdCliente = Convert.ToInt32(cbxCliente.SelectedValue);
                 venta.Total = sub_total;
                 objVenta.insertarV(ref venta);
