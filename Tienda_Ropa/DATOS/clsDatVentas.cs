@@ -46,10 +46,8 @@ namespace Tienda_Ropa.DATOS
         {
             try
             {
-                _adaptador.InsertCommand = new MySqlCommand("insert into Ventas (TOTAL,IVA,SUB_TOTAL,FECHA,IDCLIENTE) values(@TOTAL,@IVA,@SUB_TOTAL,@FECHA,@IDCLIENTE)");
+                _adaptador.InsertCommand = new MySqlCommand("insert into Ventas (TOTAL,FECHA,IDCLIENTE) values(@TOTAL,@FECHA,@IDCLIENTE)");
                 _adaptador.InsertCommand.Parameters.AddWithValue("@TOTAL", venta.Total);
-                _adaptador.InsertCommand.Parameters.AddWithValue("@IVA", venta.IVA);
-                _adaptador.InsertCommand.Parameters.AddWithValue("@SUB_TOTAL", venta.SubTotal);
                 _adaptador.InsertCommand.Parameters.AddWithValue("@FECHA", venta.Fecha);
                 _adaptador.InsertCommand.Parameters.AddWithValue("@IDCLIENTE", venta.IdCliente);
 
