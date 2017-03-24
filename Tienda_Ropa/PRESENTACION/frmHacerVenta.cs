@@ -57,11 +57,12 @@ namespace Tienda_Ropa.PRESENTACION
             {
                 venta.Fecha = Fecha;
                 venta.IdCliente = Convert.ToInt32(cbxCliente.SelectedValue);
-                venta.Total = sub_total;
+                venta.Total = sub_total;                
                 objVenta.insertarV(ref venta);
                 venta.IdVenta = Convert.ToInt32(objVenta.NVenta());
                 for (int i = 0; i < (col2Items.Count) - 1; i++)
                 {
+                    venta.SubTotal = Convert.ToDouble(dataGridView2[4,i].Value.ToString());
                     venta.IdProducto = Convert.ToInt32(col2Items[i]);
                     objVenta.insertarVD(ref venta);
                 }

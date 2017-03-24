@@ -98,7 +98,7 @@ namespace Tienda_Ropa.DATOS
         {
             try {
                 conectar();
-                string sql = "INSERT INTO DETALLESVENTA (IDDETALLEVENTA,IDVENTA,IDPRODUCTO) VALUES(null, " + objPr.IdVenta + "," + objPr.IdProducto + ")";
+                string sql = "INSERT INTO DETALLESVENTA (IDDETALLEVENTA,IDVENTA,IDPRODUCTO,IMPORTE) VALUES(null, " + objPr.IdVenta + "," + objPr.IdProducto + "," +objPr.SubTotal +" )";
 
                 MySqlCommand miCom = new MySqlCommand(sql, conexion);
                 miCom.ExecuteNonQuery();
