@@ -26,7 +26,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void frmOpProveedores_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = proveedores.leerDatos();
+            dataGridView1.DataSource = proveedores.leerDatos(textBox1.Text);
         }
 
         private void btnNueva_Click(object sender, EventArgs e)
@@ -65,7 +65,12 @@ namespace Tienda_Ropa.PRESENTACION
             objNPro.IdProveedor = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
             proveedores.eliminarPRO(ref objNPro);
             MessageBox.Show("Proveedor Eliminado");
-            dataGridView1.DataSource = proveedores.leerDatos();
+            dataGridView1.DataSource = proveedores.leerDatos(textBox1.Text);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = proveedores.leerDatos(textBox1.Text);
         }
     }
 }
