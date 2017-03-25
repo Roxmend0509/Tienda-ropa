@@ -22,11 +22,11 @@ namespace Tienda_Ropa.DATOS
             conexion.Open();
         }
 
-        public DataTable leerDatos()
+        public DataTable leerDatos(string filtro)
         {
             DataTable datos = new DataTable();
             conectar();
-            MySqlCommand comando = new MySqlCommand("Select * from Clientes", conexion);
+            MySqlCommand comando = new MySqlCommand("Select * from Clientes where idcliente like '%"+filtro+ "%' or nombre like '%" + filtro + "%' or direccion like '%" + filtro + "%' or telefono like '%" + filtro + "%'", conexion);
             MySqlDataAdapter adaptador = new MySqlDataAdapter(comando);
             DataSet ds = new DataSet();
             adaptador.Fill(ds, "Clientes");

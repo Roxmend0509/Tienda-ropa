@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tienda_Ropa.DATOS;
 
 namespace Tienda_Ropa.PRESENTACION
 {
@@ -28,7 +29,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void frmOpClientes_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = clientes.leerDatos();
+            dataGridView1.DataSource = clientes.leerDatos(textBox1.Text);
         }
 
         private void btnNueva_Click(object sender, EventArgs e)
@@ -59,7 +60,7 @@ namespace Tienda_Ropa.PRESENTACION
             clientes.eliminarCli(ref objNCli);
             MessageBox.Show("Cliente Eliminado");
 
-            dataGridView1.DataSource = clientes.leerDatos();
+            dataGridView1.DataSource = clientes.leerDatos(textBox1.Text);
         }
 
         private void btnBuscarP_Click(object sender, EventArgs e)
@@ -68,6 +69,16 @@ namespace Tienda_Ropa.PRESENTACION
             frmBusClientes c = new frmBusClientes();
 
             c.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = clientes.leerDatos(textBox1.Text);
         }
     }
 }
