@@ -34,6 +34,7 @@ namespace Tienda_Ropa.PRESENTACION
                 objNegClientes.Direccion = txtDireccion.Text;
 
                 objDatClientes.modificarCl(ref objNegClientes);
+                this.Close();
             }
             else
             {
