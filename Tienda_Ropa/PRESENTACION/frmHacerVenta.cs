@@ -87,7 +87,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void frmHacerVenta_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = productos.leerDatos();
+            dataGridView1.DataSource = productos.leerDatos("");
 
             cbxCliente.DataSource = objDatClientes.Cargar();
             cbxCliente.DisplayMember = "NOMBRE";
@@ -130,7 +130,7 @@ namespace Tienda_Ropa.PRESENTACION
                 objPJ.Existencia = Convert.ToInt32(col1Items[MP]);
                 objPJ.IdProducto = Convert.ToInt32(col2Items[MP]);
                 objVenta.modificarV(ref objPJ);
-                dataGridView1.DataSource = productos.leerDatos();
+                dataGridView1.DataSource = productos.leerDatos("");
                 MP++;
             }
 

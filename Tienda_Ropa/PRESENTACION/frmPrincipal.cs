@@ -21,8 +21,7 @@ namespace Tienda_Ropa
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frmInventario inventario = new frmInventario();
-            inventario.ShowDialog();
+            
         }
 
         private void btnClientes_Click(object sender, EventArgs e)

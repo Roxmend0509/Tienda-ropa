@@ -62,30 +62,6 @@
     <Compile Include="POJOS\clsNegProveedores.cs" />
     <Compile Include="POJOS\clsNegUsuarios.cs" />
     <Compile Include="POJOS\clsNegVentas.cs" />
-    <Compile Include="PRESENTACION\frmBusCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PRESENTACION\frmBusCategoria.Designer.cs">
-      <DependentUpon>frmBusCategoria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PRESENTACION\frmBusClientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PRESENTACION\frmBusClientes.Designer.cs">
-      <DependentUpon>frmBusClientes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PRESENTACION\frmBusProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PRESENTACION\frmBusProducto.Designer.cs">
-      <DependentUpon>frmBusProducto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PRESENTACION\frmBusProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PRESENTACION\frmBusProveedor.Designer.cs">
-      <DependentUpon>frmBusProveedor.cs</DependentUpon>
-    </Compile>
     <Compile Include="PRESENTACION\frmCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,12 +85,6 @@
     </Compile>
     <Compile Include="PRESENTACION\frmHacerVenta.Designer.cs">
       <DependentUpon>frmHacerVenta.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PRESENTACION\frmInventario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PRESENTACION\frmInventario.Designer.cs">
-      <DependentUpon>frmInventario.cs</DependentUpon>
     </Compile>
     <Compile Include="PRESENTACION\frmMoCategorias.cs">
       <SubType>Form</SubType>
@@ -196,18 +166,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PRESENTACION\frmBusCategoria.resx">
-      <DependentUpon>frmBusCategoria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PRESENTACION\frmBusClientes.resx">
-      <DependentUpon>frmBusClientes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PRESENTACION\frmBusProducto.resx">
-      <DependentUpon>frmBusProducto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PRESENTACION\frmBusProveedor.resx">
-      <DependentUpon>frmBusProveedor.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PRESENTACION\frmCategorias.resx">
       <DependentUpon>frmCategorias.cs</DependentUpon>
     </EmbeddedResource>
@@ -219,9 +177,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PRESENTACION\frmHacerventa.resx">
       <DependentUpon>frmHacerVenta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PRESENTACION\frmInventario.resx">
-      <DependentUpon>frmInventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRESENTACION\frmMoCategorias.resx">
       <DependentUpon>frmMoCategorias.cs</DependentUpon>

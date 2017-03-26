@@ -34,7 +34,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void frmOpCategorias_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = categoria.leerDatos();
+            dataGridView1.DataSource = categoria.leerDatos("");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -56,15 +56,18 @@ namespace Tienda_Ropa.PRESENTACION
             categoria.eliminarC(ref objNP);
             MessageBox.Show("Categoria Eliminada");
 
-            dataGridView1.DataSource = categoria.leerDatos();
+            dataGridView1.DataSource = categoria.leerDatos("");
 
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            this.Close();
-            frmBusCategoria categoria = new frmBusCategoria();
-            categoria.ShowDialog();
+         
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = categoria.leerDatos(textBox1.Text);
         }
     }
 }

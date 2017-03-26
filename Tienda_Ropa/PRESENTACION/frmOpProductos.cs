@@ -22,7 +22,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void frmOpProductos_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = PRODUCTOS.leerDatos();
+            dataGridView1.DataSource = PRODUCTOS.leerDatos("");
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -63,15 +63,17 @@ namespace Tienda_Ropa.PRESENTACION
             objNP.IdProducto = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
             PRODUCTOS.eliminarP(ref objNP);
             MessageBox.Show("Producto eliminado");
-            dataGridView1.DataSource = PRODUCTOS.leerDatos();
+            dataGridView1.DataSource = PRODUCTOS.leerDatos("");
         }
 
         private void btnBuscarP_Click(object sender, EventArgs e)
         {
-            this.Close();
-            frmBusProducto p = new frmBusProducto();
+          
+        }
 
-            p.ShowDialog();
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = PRODUCTOS.leerDatos(textBox1.Text);
         }
     }
 }

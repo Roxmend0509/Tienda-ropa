@@ -65,10 +65,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnBuscarP_Click(object sender, EventArgs e)
         {
-            this.Close();
-            frmBusClientes c = new frmBusClientes();
-
-            c.ShowDialog();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)

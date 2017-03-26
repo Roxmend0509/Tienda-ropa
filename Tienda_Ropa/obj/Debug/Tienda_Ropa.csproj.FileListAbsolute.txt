@@ -248,15 +248,10 @@ C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
-C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusCategoria.resources
-C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusClientes.resources
-C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProducto.resources
-C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmBusProveedor.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
-C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmInventario.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoCategorias.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoClientes.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProductos.resources

@@ -33,7 +33,6 @@
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnProveedores = new System.Windows.Forms.Button();
             this.btnCompras = new System.Windows.Forms.Button();
-            this.btnInventario = new System.Windows.Forms.Button();
             this.btnVentas = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -46,7 +45,7 @@
             this.btnCategorias.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCategorias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCategorias.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCategorias.Location = new System.Drawing.Point(745, 10);
+            this.btnCategorias.Location = new System.Drawing.Point(500, 10);
             this.btnCategorias.Margin = new System.Windows.Forms.Padding(10);
             this.btnCategorias.Name = "btnCategorias";
             this.btnCategorias.Size = new System.Drawing.Size(225, 248);
@@ -61,7 +60,7 @@
             this.btnCerrar.BackgroundImage = global::Tienda_Ropa.Properties.Resources.logout_icon_150x150;
             this.btnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrar.Location = new System.Drawing.Point(446, 546);
+            this.btnCerrar.Location = new System.Drawing.Point(319, 547);
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(10);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(96, 116);
@@ -77,7 +76,7 @@
             this.btnClientes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientes.Location = new System.Drawing.Point(627, 278);
+            this.btnClientes.Location = new System.Drawing.Point(500, 278);
             this.btnClientes.Margin = new System.Windows.Forms.Padding(10);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(225, 248);
@@ -93,7 +92,7 @@
             this.btnProveedores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProveedores.Location = new System.Drawing.Point(382, 278);
+            this.btnProveedores.Location = new System.Drawing.Point(255, 278);
             this.btnProveedores.Margin = new System.Windows.Forms.Padding(10);
             this.btnProveedores.Name = "btnProveedores";
             this.btnProveedores.Size = new System.Drawing.Size(225, 248);
@@ -109,7 +108,7 @@
             this.btnCompras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCompras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCompras.Location = new System.Drawing.Point(137, 278);
+            this.btnCompras.Location = new System.Drawing.Point(10, 278);
             this.btnCompras.Margin = new System.Windows.Forms.Padding(10);
             this.btnCompras.Name = "btnCompras";
             this.btnCompras.Size = new System.Drawing.Size(225, 248);
@@ -118,22 +117,6 @@
             this.btnCompras.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCompras.UseVisualStyleBackColor = true;
             this.btnCompras.Click += new System.EventHandler(this.btnCompras_Click);
-            // 
-            // btnInventario
-            // 
-            this.btnInventario.BackgroundImage = global::Tienda_Ropa.Properties.Resources.document;
-            this.btnInventario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInventario.Location = new System.Drawing.Point(500, 10);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(10);
-            this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(225, 248);
-            this.btnInventario.TabIndex = 2;
-            this.btnInventario.Text = "Inventario";
-            this.btnInventario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnInventario.UseVisualStyleBackColor = true;
-            this.btnInventario.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnVentas
             // 
@@ -175,11 +158,10 @@
             this.panel1.Controls.Add(this.btnClientes);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnProveedores);
-            this.panel1.Controls.Add(this.btnInventario);
             this.panel1.Controls.Add(this.btnCompras);
             this.panel1.Location = new System.Drawing.Point(13, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(980, 673);
+            this.panel1.Size = new System.Drawing.Size(736, 673);
             this.panel1.TabIndex = 9;
             // 
             // frmPrincipal
@@ -202,7 +184,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnVentas;
-        private System.Windows.Forms.Button btnInventario;
         private System.Windows.Forms.Button btnCompras;
         private System.Windows.Forms.Button btnProveedores;
         private System.Windows.Forms.Button btnClientes;

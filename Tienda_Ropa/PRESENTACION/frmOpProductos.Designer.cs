@@ -31,9 +31,10 @@
             this.btnCerrar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnEliminarP = new System.Windows.Forms.Button();
-            this.btnBuscarP = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnNueva = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,7 +68,7 @@
             this.btnEliminarP.BackgroundImage = global::Tienda_Ropa.Properties.Resources.folder_delete_256;
             this.btnEliminarP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnEliminarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarP.Location = new System.Drawing.Point(701, 15);
+            this.btnEliminarP.Location = new System.Drawing.Point(1068, 13);
             this.btnEliminarP.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminarP.Name = "btnEliminarP";
             this.btnEliminarP.Size = new System.Drawing.Size(193, 144);
@@ -76,26 +77,12 @@
             this.btnEliminarP.UseVisualStyleBackColor = true;
             this.btnEliminarP.Click += new System.EventHandler(this.btnEliminarP_Click);
             // 
-            // btnBuscarP
-            // 
-            this.btnBuscarP.BackgroundImage = global::Tienda_Ropa.Properties.Resources.wp63212b43_061;
-            this.btnBuscarP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnBuscarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarP.Location = new System.Drawing.Point(472, 15);
-            this.btnBuscarP.Margin = new System.Windows.Forms.Padding(4);
-            this.btnBuscarP.Name = "btnBuscarP";
-            this.btnBuscarP.Size = new System.Drawing.Size(193, 144);
-            this.btnBuscarP.TabIndex = 8;
-            this.btnBuscarP.Text = "Buscar";
-            this.btnBuscarP.UseVisualStyleBackColor = true;
-            this.btnBuscarP.Click += new System.EventHandler(this.btnBuscarP_Click);
-            // 
             // btnModificar
             // 
             this.btnModificar.BackgroundImage = global::Tienda_Ropa.Properties.Resources.registro_0;
             this.btnModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(243, 15);
+            this.btnModificar.Location = new System.Drawing.Point(867, 13);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(4);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(193, 144);
@@ -109,7 +96,7 @@
             this.btnNueva.BackgroundImage = global::Tienda_Ropa.Properties.Resources.ffpic1305162526258;
             this.btnNueva.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnNueva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNueva.Location = new System.Drawing.Point(16, 15);
+            this.btnNueva.Location = new System.Drawing.Point(666, 13);
             this.btnNueva.Margin = new System.Windows.Forms.Padding(4);
             this.btnNueva.Name = "btnNueva";
             this.btnNueva.Size = new System.Drawing.Size(193, 144);
@@ -118,6 +105,25 @@
             this.btnNueva.UseVisualStyleBackColor = true;
             this.btnNueva.Click += new System.EventHandler(this.btnNueva_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(11, 99);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 25);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Filltro";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(16, 127);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(183, 30);
+            this.textBox1.TabIndex = 13;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // frmOpProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -125,10 +131,11 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1276, 793);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnEliminarP);
-            this.Controls.Add(this.btnBuscarP);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnNueva);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -137,6 +144,7 @@
             this.Load += new System.EventHandler(this.frmOpProductos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -144,9 +152,10 @@
 
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnEliminarP;
-        private System.Windows.Forms.Button btnBuscarP;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnNueva;
         public System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

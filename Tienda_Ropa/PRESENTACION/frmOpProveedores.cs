@@ -53,10 +53,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnBuscarP_Click(object sender, EventArgs e)
         {
-            this.Close();
-            frmBusProveedor pro = new frmBusProveedor();
-
-            pro.ShowDialog();
+            
 
         }
 
