@@ -57,6 +57,17 @@ namespace Tienda_Ropa
 
         private void txtUsuario_TextChanged(object sender, EventArgs e)
         {
-                    }
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.facebook.com/SportRhayno/?fref=ts");
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.facebook.com/SportRhayno/?fref=ts");
+        }
     }
 }
