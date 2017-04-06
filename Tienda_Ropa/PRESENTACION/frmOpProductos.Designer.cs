@@ -37,11 +37,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCerrar
@@ -51,7 +49,7 @@
             this.btnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.Location = new System.Drawing.Point(1194, 733);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCerrar.MaximumSize = new System.Drawing.Size(66, 61);
             this.btnCerrar.MinimumSize = new System.Drawing.Size(66, 61);
             this.btnCerrar.Name = "btnCerrar";
@@ -69,7 +67,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridView1.Location = new System.Drawing.Point(14, 134);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
@@ -85,7 +83,7 @@
             this.btnEliminarP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnEliminarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarP.Location = new System.Drawing.Point(924, 4);
-            this.btnEliminarP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminarP.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminarP.MaximumSize = new System.Drawing.Size(146, 123);
             this.btnEliminarP.MinimumSize = new System.Drawing.Size(146, 123);
             this.btnEliminarP.Name = "btnEliminarP";
@@ -101,7 +99,7 @@
             this.btnModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.Location = new System.Drawing.Point(770, 4);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(4);
             this.btnModificar.MaximumSize = new System.Drawing.Size(146, 123);
             this.btnModificar.MinimumSize = new System.Drawing.Size(146, 123);
             this.btnModificar.Name = "btnModificar";
@@ -117,7 +115,7 @@
             this.btnNueva.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnNueva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNueva.Location = new System.Drawing.Point(614, 4);
-            this.btnNueva.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNueva.Margin = new System.Windows.Forms.Padding(4);
             this.btnNueva.MaximumSize = new System.Drawing.Size(146, 123);
             this.btnNueva.MinimumSize = new System.Drawing.Size(146, 123);
             this.btnNueva.Name = "btnNueva";
@@ -162,7 +160,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(26, 21);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.MaximumSize = new System.Drawing.Size(34, 32);
             this.button1.MinimumSize = new System.Drawing.Size(34, 32);
             this.button1.Name = "button1";
@@ -171,24 +169,11 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Tienda_Ropa.Properties.Resources.no_image_slide;
-            this.pictureBox1.Location = new System.Drawing.Point(56, 496);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.MaximumSize = new System.Drawing.Size(306, 308);
-            this.pictureBox1.MinimumSize = new System.Drawing.Size(306, 308);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(306, 308);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(394, 490);
+            this.label1.Location = new System.Drawing.Point(20, 489);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 30);
@@ -200,8 +185,8 @@
             this.textBox2.BackColor = System.Drawing.Color.PowderBlue;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(434, 521);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Location = new System.Drawing.Point(60, 520);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.MaximumSize = new System.Drawing.Size(734, 283);
             this.textBox2.MinimumSize = new System.Drawing.Size(734, 283);
             this.textBox2.Multiline = true;
@@ -219,7 +204,6 @@
             this.ClientSize = new System.Drawing.Size(1282, 804);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
@@ -229,7 +213,7 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnNueva);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1300, 851);
             this.MinimizeBox = false;
@@ -239,7 +223,6 @@
             this.Text = "Sport Rhayno";
             this.Load += new System.EventHandler(this.frmOpProductos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -255,7 +238,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
     }
