@@ -82,7 +82,8 @@ namespace Tienda_Ropa.PRESENTACION
             {
                 sub_total += double.Parse(dataGridView2[4, i].Value.ToString());
             }
-            txtTotal.Text = Convert.ToString(sub_total);
+
+            lblTotal.Text = Convert.ToString(sub_total);
         }
 
         private void frmHacerVenta_Load(object sender, EventArgs e)
@@ -139,6 +140,16 @@ namespace Tienda_Ropa.PRESENTACION
         private void dataGridView2_Paint(object sender, PaintEventArgs e)
         {
             total();
+        }
+
+        private void txtTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

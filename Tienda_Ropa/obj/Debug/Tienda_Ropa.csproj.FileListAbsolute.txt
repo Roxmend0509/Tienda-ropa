@@ -246,7 +246,6 @@ C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.dll
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\MySql.Data.xml
-C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
@@ -263,9 +262,32 @@ C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
-C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmVentas.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
 C:\Users\j0ker\Documents\Visual Studio 2017\Projects\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmReporte.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.pdb
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csprojResolveAssemblyReference.cache
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmCategorias.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmClientes.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmCompras.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmHacerVenta.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoCategorias.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoClientes.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProductos.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmMoProveedores.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpCategorias.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpClientes.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProductos.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmOpProveedores.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmPrincipal.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.frmLogin.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmProveedores.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmReporte.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
+C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache

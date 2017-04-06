@@ -31,8 +31,7 @@ namespace Tienda_Ropa.PRESENTACION
         }
 
         private void btnNueva_Click(object sender, EventArgs e)
-        {
-            this.Close();
+        {            
             frmCompras compras = new frmCompras();
             compras.ShowDialog();
 
@@ -40,17 +39,17 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
             objNP.IdProducto = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
             objNP = PRODUCTOS.buscarPRO(ref objNP);
-
+ 
             PRESENTACION.frmMoProductos objfrmDatosP = new PRESENTACION.frmMoProductos();
             objfrmDatosP.txtIdProducto.Text = Convert.ToString(objNP.IdProducto);
             objfrmDatosP.txtNombre.Text = objNP.Nombre;
-            objfrmDatosP.txtTalla.Text = objNP.Talla;
+            objfrmDatosP.comboBox1.Text = objNP.Talla;
             objfrmDatosP.txtPrecioCompra.Text = Convert.ToString(objNP.PrecioCompra);
             objfrmDatosP.txtPrecioVenta.Text = Convert.ToString(objNP.PrecioVenta);
-            objfrmDatosP.txtExistencia.Text = Convert.ToString(objNP.Existencia);
+            objfrmDatosP.numericUpDown1.Text = Convert.ToString(objNP.Existencia);
             objfrmDatosP.txtDescripcion.Text = objNP.descrip;
             objfrmDatosP.cbxCategoria.Text = Convert.ToString(objNP.IdCategoria);
             objfrmDatosP.cbxProveedor.Text = Convert.ToString(objNP.IdProveedor);
@@ -60,10 +59,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnEliminarP_Click(object sender, EventArgs e)
         {
-            objNP.IdProducto = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            PRODUCTOS.eliminarP(ref objNP);
-            MessageBox.Show("Producto eliminado");
-            dataGridView1.DataSource = PRODUCTOS.leerDatos("");
+            
         }
 
         private void btnBuscarP_Click(object sender, EventArgs e)
@@ -74,6 +70,21 @@ namespace Tienda_Ropa.PRESENTACION
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             dataGridView1.DataSource = PRODUCTOS.leerDatos(textBox1.Text);
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

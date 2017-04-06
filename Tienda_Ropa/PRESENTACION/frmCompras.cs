@@ -32,16 +32,16 @@ namespace Tienda_Ropa
         private void btnAceptar_Click(object sender, EventArgs e)
         {
 
-            if ((txtIdProducto.Text != "") & (txtNombre.Text != "") & (txtTalla.Text != "") & (txtPrecioCompra.Text != "") &
-                (txtPrecioVenta.Text != "") & (txtExistencia.Text != "") & (cbxCategoria.Text != "") & (cbxProveedor.Text != ""))
+            if ((txtIdProducto.Text != "") & (txtNombre.Text != "") & (comboBox1.Text != "") & (txtPrecioCompra.Text != "") &
+                (txtPrecioVenta.Text != "") & (numericUpDown1.Text != "") & (cbxCategoria.Text != "") & (cbxProveedor.Text != ""))
             {
                 objNegProductos.IdProducto = Convert.ToInt32(txtIdProducto.Text);
                 objNegProductos.Nombre = txtNombre.Text;
-                objNegProductos.Talla = txtTalla.Text;
+                objNegProductos.Talla = comboBox1.Text;
                 objNegProductos.PrecioCompra = Convert.ToDouble(txtPrecioCompra.Text);
                 objNegProductos.PrecioVenta = Convert.ToDouble(txtPrecioVenta.Text);
                 objNegProductos.descrip = txtDescripcion.Text;
-                objNegProductos.Existencia = Convert.ToInt32(txtExistencia.Text);
+                objNegProductos.Existencia = Convert.ToInt32(numericUpDown1.Text);
                 objNegProductos.Imagen = picImagen.Image;
                 objNegProductos.IdCategoria = Convert.ToInt32(cbxCategoria.SelectedValue);
                 objNegProductos.IdProveedor = Convert.ToInt32(cbxProveedor.SelectedValue);

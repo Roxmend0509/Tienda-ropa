@@ -31,7 +31,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnNueva_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
             PRESENTACION.frmProveedores proveedores = new PRESENTACION.frmProveedores();
             proveedores.ShowDialog();
         }
@@ -39,7 +39,7 @@ namespace Tienda_Ropa.PRESENTACION
         private void btnModificar_Click(object sender, EventArgs e)
         {
 
-            this.Close();
+            
             objNPro.IdProveedor = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
             objNPro = proveedores.buscarPRO(ref objNPro);
 
@@ -68,6 +68,16 @@ namespace Tienda_Ropa.PRESENTACION
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             dataGridView1.DataSource = proveedores.leerDatos(textBox1.Text);
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -63,5 +63,15 @@ namespace Tienda_Ropa.PRESENTACION
                 e.Handled = true;
             }
         }
+
+        private void frmMoProveedores_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtIdProveedor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

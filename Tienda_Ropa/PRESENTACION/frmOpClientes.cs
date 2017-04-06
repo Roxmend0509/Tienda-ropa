@@ -34,7 +34,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnNueva_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
             PRESENTACION.frmClientes clientes = new PRESENTACION.frmClientes();
 
             clientes.ShowDialog();
@@ -42,7 +42,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
             objNCli.IdCliente = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
             objNCli = clientes.buscarCLI(ref objNCli);
 
@@ -56,11 +56,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnEliminarP_Click(object sender, EventArgs e)
         {
-            objNCli.IdCliente = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            clientes.eliminarCli(ref objNCli);
-            MessageBox.Show("Cliente Eliminado");
-
-            dataGridView1.DataSource = clientes.leerDatos(textBox1.Text);
+            
         }
 
         private void btnBuscarP_Click(object sender, EventArgs e)

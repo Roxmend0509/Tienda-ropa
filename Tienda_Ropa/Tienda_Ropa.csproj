@@ -158,12 +158,6 @@
     <Compile Include="PRESENTACION\frmReporte.Designer.cs">
       <DependentUpon>frmReporte.cs</DependentUpon>
     </Compile>
-    <Compile Include="PRESENTACION\frmVentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PRESENTACION\frmVentas.Designer.cs">
-      <DependentUpon>frmVentas.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PRESENTACION\frmCategorias.resx">
@@ -213,9 +207,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PRESENTACION\frmReporte.resx">
       <DependentUpon>frmReporte.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PRESENTACION\frmVentas.resx">
-      <DependentUpon>frmVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRESENTACION\Report1.rdlc" />
     <EmbeddedResource Include="PRESENTACION\Report2.rdlc" />

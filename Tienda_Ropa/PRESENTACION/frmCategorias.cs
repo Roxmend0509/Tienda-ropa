@@ -64,5 +64,10 @@ namespace Tienda_Ropa.PRESENTACION
                 e.Handled = true;
             }
         }
+
+        private void frmCategorias_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
