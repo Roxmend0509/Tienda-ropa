@@ -14,13 +14,26 @@ namespace Tienda_Ropa.DATOS
 {
     class clsDatProductos
     {
-        MySqlConnection conexion = new MySqlConnection();
+        MySqlConnection conexion = new MySqlConnection("server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false");
         private MySqlDataAdapter _adaptador = new MySqlDataAdapter();
 
         private void conectar()
         {
-            conexion.ConnectionString = "server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false";
+            
             conexion.Open();
+        }
+
+        public string descripcion(int i)
+        {
+            conectar();
+            MySqlCommand comando = new MySqlCommand("select descripcion from productos where idproducto = @id;", conexion);
+            comando.Parameters.AddWithValue("id", i);
+            MySqlDataReader dr = comando.ExecuteReader();
+            dr.Read();
+            string a = dr.GetString(0);
+            conexion.Close();
+            dr.Close();
+            return a;
         }
 
         public DataTable leerDatos(string filtro)
@@ -158,21 +171,15 @@ namespace Tienda_Ropa.DATOS
 
         }
 
-        public void eliminarP(ref POJOS.clsNegProductos objP)
+        public void eliminarP(int id)
         {
-            //conectar();
-            //string sql = "delete from PRODUCTOS where IDPRODUCTO=" + objP.IdProducto;
-            //MySqlCommand miCom = new MySqlCommand(sql, conexion);
-            //miCom.ExecuteNonQuery();
-            //miCom.Dispose();
-            //conexion.Close();
+            
             try
             {
-                _adaptador.DeleteCommand = new MySqlCommand("delete from PRODUCTOS where IDPRODUCTO=@IDPRODUCTO", conexion);
-                _adaptador.DeleteCommand.Parameters.Add("@IDPRODUCTO", MySqlDbType.Int32).Value = objP.IdProducto;
-                conectar();
-                _adaptador.DeleteCommand.ExecuteNonQuery();
-
+                conexion.Open();
+                MySqlCommand cm = new MySqlCommand("update productos set estado = 'baja', existencia = 0 where idproducto = @id;", conexion);
+                cm.Parameters.AddWithValue("id", id);
+                cm.ExecuteNonQuery();
             }
             catch (Exception error)
             {

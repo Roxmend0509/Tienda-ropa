@@ -34,6 +34,7 @@ namespace Tienda_Ropa.PRESENTACION
         {            
             frmCompras compras = new frmCompras();
             compras.ShowDialog();
+            dataGridView1.DataSource = PRODUCTOS.leerDatos("");
 
         }
 
@@ -59,7 +60,10 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnEliminarP_Click(object sender, EventArgs e)
         {
-            
+            int id;
+            id = int.Parse(dataGridView1[0,dataGridView1.CurrentRow.Index].Value.ToString());
+            PRODUCTOS.eliminarP(id);
+            dataGridView1.DataSource = PRODUCTOS.leerDatos("");
         }
 
         private void btnBuscarP_Click(object sender, EventArgs e)
@@ -85,6 +89,15 @@ namespace Tienda_Ropa.PRESENTACION
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_Paint(object sender, PaintEventArgs e)
+        {
+            if (dataGridView1.Rows.Count > 0)
+            {
+                int i = dataGridView1.CurrentRow.Index;
+                textBox2.Text = PRODUCTOS.descripcion(int.Parse(dataGridView1[0, i].Value.ToString()));
+            }
         }
     }
 }
