@@ -49,8 +49,7 @@ namespace Tienda_Ropa
                 objDatProductos.insertarP(ref objNegProductos, picImagen);
 
 
-                this.Hide();
-                new PRESENTACION.frmOpProductos().ShowDialog();
+                this.Close();
 
             }
             else

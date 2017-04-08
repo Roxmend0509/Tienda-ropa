@@ -119,8 +119,7 @@ namespace Tienda_Ropa.PRESENTACION
                 Convert.ToString(dataGridView1[1, dataGridView1.CurrentRow.Index].Value),
                 Convert.ToString(dataGridView1[2, dataGridView1.CurrentRow.Index].Value),
                 Convert.ToString(dataGridView1[3, dataGridView1.CurrentRow.Index].Value),
-                Convert.ToString(dataGridView1[5, dataGridView1.CurrentRow.Index].Value),
-                Convert.ToString(dataGridView1[7, dataGridView1.CurrentRow.Index].Value)
+                Convert.ToString(dataGridView1[4, dataGridView1.CurrentRow.Index].Value),
             });
 
                 foreach (DataGridViewRow dr in dataGridView2.Rows)
@@ -150,6 +149,11 @@ namespace Tienda_Ropa.PRESENTACION
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
 }
