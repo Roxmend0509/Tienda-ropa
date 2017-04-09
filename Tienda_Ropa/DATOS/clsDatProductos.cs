@@ -123,7 +123,27 @@ namespace Tienda_Ropa.DATOS
         }
 
        
-        
+        public void cargarImagen(PictureBox pi)
+        {
+            MySqlCommand cm;
+            try
+            {
+                conectar();
+                cm = new MySqlCommand("select imagen from productos",conexion);
+                byte[] imgArr = (byte[])cm.ExecuteScalar();
+                imgArr = (byte[])cm.ExecuteScalar();
+                using (var stream = new MemoryStream(imgArr))
+                {
+                    Image img = Image.FromStream(stream);
+                    pi.Image = img;
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
 
 
         public POJOS.clsNegProductos buscarPRO(ref POJOS.clsNegProductos produc)
@@ -141,7 +161,6 @@ namespace Tienda_Ropa.DATOS
                 produc.Existencia = Convert.ToInt32(miDataR["EXISTENCIA"]);
                 produc.PrecioCompra = Convert.ToDouble(miDataR["PRECIOCOMPRA"]);
                 produc.PrecioVenta = Convert.ToDouble(miDataR["PRECIOVENTA"]);
-                //produc.Imagen =Image (miDataR["IMAGEN"]);
                 produc.descrip = miDataR["DESCRIPCION"].ToString();
                 produc.IdProveedor =Convert.ToInt32(miDataR["IDPROVEEDOR"]);
                 produc.IdCategoria = Convert.ToInt32(miDataR["IDCATEGORIA"]);

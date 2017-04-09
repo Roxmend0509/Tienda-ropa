@@ -7,11 +7,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tienda_Ropa.DATOS;
+using Tienda_Ropa.POJOS;
 
 namespace Tienda_Ropa.PRESENTACION
 {
     public partial class frmMoProductos : Form
     {
+
+        public frmMoProductos(string id)
+        {
+            InitializeComponent();
+            txtIdProducto.Text = id;
+            clsNegProductos pr = new clsNegProductos();
+            pr.IdProducto = int.Parse(id);
+            pr = new clsDatProductos().buscarPporID(ref pr);
+            txtDescripcion.Text = pr.descrip;
+            txtNombre.Text = pr.Nombre;
+            txtPrecioCompra.Text = pr.PrecioCompra+"";
+            txtPrecioVenta.Text = pr.PrecioVenta + "";
+            new clsDatProductos().cargarImagen(picImagen);
+
+
+        }
+
         public frmMoProductos()
         {
             InitializeComponent();
@@ -40,8 +59,7 @@ namespace Tienda_Ropa.PRESENTACION
                 objDatProductos.modificarP(ref objNegProductos, picImagen);
 
 
-                this.Hide();
-                new frmOpProductos().ShowDialog();
+                this.Close();
 
             }
             else

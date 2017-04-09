@@ -40,22 +40,7 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            
-            objNP.IdProducto = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            objNP = PRODUCTOS.buscarPRO(ref objNP);
- 
-            PRESENTACION.frmMoProductos objfrmDatosP = new PRESENTACION.frmMoProductos();
-            objfrmDatosP.txtIdProducto.Text = Convert.ToString(objNP.IdProducto);
-            objfrmDatosP.txtNombre.Text = objNP.Nombre;
-            objfrmDatosP.comboBox1.Text = objNP.Talla;
-            objfrmDatosP.txtPrecioCompra.Text = Convert.ToString(objNP.PrecioCompra);
-            objfrmDatosP.txtPrecioVenta.Text = Convert.ToString(objNP.PrecioVenta);
-            objfrmDatosP.numericUpDown1.Text = Convert.ToString(objNP.Existencia);
-            objfrmDatosP.txtDescripcion.Text = objNP.descrip;
-            objfrmDatosP.cbxCategoria.Text = Convert.ToString(objNP.IdCategoria);
-            objfrmDatosP.cbxProveedor.Text = Convert.ToString(objNP.IdProveedor);
-            //objfrmDatosP.picImagen.Image = objNP.Imagen;
-            objfrmDatosP.ShowDialog();
+            new frmMoProductos(dataGridView1.CurrentRow.Cells[0].Value.ToString()).ShowDialog();
         }
 
         private void btnEliminarP_Click(object sender, EventArgs e)
