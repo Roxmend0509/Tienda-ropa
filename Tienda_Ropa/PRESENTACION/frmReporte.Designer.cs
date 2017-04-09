@@ -36,39 +36,36 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.InactiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(10, 31);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dataGridView1.MaximumSize = new System.Drawing.Size(1440, 769);
-            this.dataGridView1.MinimumSize = new System.Drawing.Size(1440, 769);
+            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.dataGridView1.Location = new System.Drawing.Point(7, 20);
+            this.dataGridView1.MaximumSize = new System.Drawing.Size(960, 492);
+            this.dataGridView1.MinimumSize = new System.Drawing.Size(960, 492);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1440, 769);
+            this.dataGridView1.Size = new System.Drawing.Size(960, 492);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.UseWaitCursor = true;
             // 
             // frmReporte
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1448, 767);
+            this.ClientSize = new System.Drawing.Size(971, 506);
             this.Controls.Add(this.dataGridView1);
-            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1474, 838);
+            this.MaximumSize = new System.Drawing.Size(989, 553);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1474, 838);
+            this.MinimumSize = new System.Drawing.Size(989, 553);
             this.Name = "frmReporte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sport Rhayno";
-            this.UseWaitCursor = true;
             this.Load += new System.EventHandler(this.frmReportes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

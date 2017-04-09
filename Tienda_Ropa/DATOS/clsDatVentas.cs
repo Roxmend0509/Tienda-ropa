@@ -184,7 +184,7 @@ namespace Tienda_Ropa.DATOS
             DataTable dtDatos = new DataTable();
 
             // Se crea un MySqlAdapter para obtener los datos de la base
-            MySqlDataAdapter mdaDatos = new MySqlDataAdapter("select idventa as folio, fecha, total, IDCLIENTE as Cliente from ventas;", conexion);
+            MySqlDataAdapter mdaDatos = new MySqlDataAdapter("select v.idventa as folio, v.fecha, v.total, c.nombre from ventas v natural join clientes c order by v.idventa;", conexion);
 
             // Con la información del adaptador se rellena el DataTable
             mdaDatos.Fill(dtDatos);
