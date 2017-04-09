@@ -209,11 +209,7 @@ namespace Tienda_Ropa.DATOS
             try
             {
                 conexion.Open();
-<<<<<<< HEAD
                 MySqlCommand cm = new MySqlCommand("delete from productos where idproducto = @id;", conexion);
-=======
-                MySqlCommand cm = new MySqlCommand("update productos set estado = 'baja', existencia = 0 where idproducto = @id;", conexion);
->>>>>>> master
                 cm.Parameters.AddWithValue("id", id);
                 cm.ExecuteNonQuery();
             }

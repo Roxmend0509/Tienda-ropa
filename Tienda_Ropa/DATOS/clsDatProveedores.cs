@@ -171,8 +171,7 @@ namespace Tienda_Ropa.DATOS
                 _adaptador.DeleteCommand = new MySqlCommand("delete from Proveedores where IDPROVEEDOR=@IDPROVEEDOR", conexion);
                 _adaptador.DeleteCommand.Parameters.Add("@IDPROVEEDOR", MySqlDbType.Int32).Value = objP.IdProveedor;
                 conectar();
-                _adaptador.DeleteCommand.ExecuteNonQuery();
-
+                _adaptador.DeleteCommand.ExecuteNonQuery();                
             }
             catch (Exception error)
             {

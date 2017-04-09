@@ -32,8 +32,10 @@ namespace Tienda_Ropa.PRESENTACION
         private void btnNueva_Click(object sender, EventArgs e)
         {
             
-            PRESENTACION.frmProveedores proveedores = new PRESENTACION.frmProveedores();
-            proveedores.ShowDialog();
+            PRESENTACION.frmProveedores proveedoress = new PRESENTACION.frmProveedores();
+            proveedoress.ShowDialog();
+            dataGridView1.DataSource = proveedores.leerDatos(textBox1.Text);
+
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -49,6 +51,7 @@ namespace Tienda_Ropa.PRESENTACION
             objfrmDatosPro.txtDireccion.Text = objNPro.Direccion;
             objfrmDatosPro.txtTelefono.Text = Convert.ToString(objNPro.Telefono);
             objfrmDatosPro.ShowDialog();
+            dataGridView1.DataSource = proveedores.leerDatos(textBox1.Text);
         }
 
         private void btnBuscarP_Click(object sender, EventArgs e)
@@ -61,7 +64,6 @@ namespace Tienda_Ropa.PRESENTACION
         {
             objNPro.IdProveedor = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[0].Value.ToString());
             proveedores.eliminarPRO(ref objNPro);
-            MessageBox.Show("Proveedor Eliminado");
             dataGridView1.DataSource = proveedores.leerDatos(textBox1.Text);
         }
 

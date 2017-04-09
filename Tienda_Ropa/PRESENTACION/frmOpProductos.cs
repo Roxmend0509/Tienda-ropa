@@ -54,7 +54,7 @@ namespace Tienda_Ropa.PRESENTACION
             objfrmDatosP.txtDescripcion.Text = objNP.descrip;
             objfrmDatosP.cbxCategoria.Text = Convert.ToString(objNP.IdCategoria);
             objfrmDatosP.cbxProveedor.Text = Convert.ToString(objNP.IdProveedor);
-            objfrmDatosP.picImagen.Image = objNP.Imagen;
+            //objfrmDatosP.picImagen.Image = objNP.Imagen;
             objfrmDatosP.ShowDialog();
         }
 

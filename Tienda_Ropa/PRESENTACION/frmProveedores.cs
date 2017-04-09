@@ -25,7 +25,7 @@ namespace Tienda_Ropa.PRESENTACION
             try
             {
 
-                if ((txtIdProveedor.Text != "") & (txtNombre.Text != "") & (txtTelefono.TextLength == 10))
+                if ((txtIdProveedor.Text != "") & (txtNombre.Text != ""))
                 {
                     objNegProveedores.IdProveedor = int.Parse(txtIdProveedor.Text);
                     objNegProveedores.Nombre = txtNombre.Text;
@@ -34,8 +34,7 @@ namespace Tienda_Ropa.PRESENTACION
 
                     objDatProveedores.insertarPro(ref objNegProveedores);
 
-                    this.Hide();
-                    new frmOpProveedores().ShowDialog();
+                    this.Close();
                 }
                 else
                 {

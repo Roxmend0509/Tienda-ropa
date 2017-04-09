@@ -30,8 +30,7 @@ namespace Tienda_Ropa.PRESENTACION
                 objDatProveedores.modificarPro(ref objNegProveedores);
 
 
-                this.Hide();
-                new frmOpProveedores().ShowDialog();
+                this.Close();
             }
             else
             {
