@@ -58,7 +58,7 @@ namespace Tienda_Ropa.DATOS
             try
             {
                 conectar();
-                comando = new MySqlCommand("Select count(*) from productos where idproducto = " + id + " and estado = 'activo';", conexion);
+                comando = new MySqlCommand("Select count(*) from productos where idproducto = " + id + ";", conexion);
                 n = Convert.ToInt32(comando.ExecuteScalar());
             }
             finally
@@ -85,7 +85,7 @@ namespace Tienda_Ropa.DATOS
             {
                 try
                 {
-                    _adaptador.InsertCommand = new MySqlCommand("replace into PRODUCTOS (IDPRODUCTO,NOMBRE,TALLA,EXISTENCIA,PRECIOCOMPRA,PRECIOVENTA,IMAGEN,DESCRIPCION,IDPROVEEDOR,IDCATEGORIA) values(@IDPRODUCTO,@NOMBRE,@TALLA,@EXISTENCIA,@PRECIOCOMPRA,@PRECIOVENTA,@IMAGEN,@DESCRIPCION,@IDPROVEEDOR,@IDCATEGORIA)");
+                    _adaptador.InsertCommand = new MySqlCommand("insert into PRODUCTOS (IDPRODUCTO,NOMBRE,TALLA,EXISTENCIA,PRECIOCOMPRA,PRECIOVENTA,IMAGEN,DESCRIPCION,IDPROVEEDOR,IDCATEGORIA) values(@IDPRODUCTO,@NOMBRE,@TALLA,@EXISTENCIA,@PRECIOCOMPRA,@PRECIOVENTA,@IMAGEN,@DESCRIPCION,@IDPROVEEDOR,@IDCATEGORIA)");
                     _adaptador.InsertCommand.Parameters.Add("@IDPRODUCTO", MySqlDbType.Int32, 9).Value = produc.IdProducto;
                     _adaptador.InsertCommand.Parameters.Add("@NOMBRE", MySqlDbType.VarChar, 70).Value = produc.Nombre;
                     _adaptador.InsertCommand.Parameters.Add("@TALLA", MySqlDbType.VarChar, 70).Value = produc.Talla;
@@ -209,7 +209,7 @@ namespace Tienda_Ropa.DATOS
             try
             {
                 conexion.Open();
-                MySqlCommand cm = new MySqlCommand("update productos set estado = 'baja', existencia = 0 where idproducto = @id;", conexion);
+                MySqlCommand cm = new MySqlCommand("delete from productos where idproducto = @id;", conexion);
                 cm.Parameters.AddWithValue("id", id);
                 cm.ExecuteNonQuery();
             }
