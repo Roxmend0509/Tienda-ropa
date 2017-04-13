@@ -53,6 +53,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -67,17 +68,19 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 105);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(24, 203);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1248, 318);
+            this.dataGridView1.Size = new System.Drawing.Size(2496, 616);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.Paint += new System.Windows.Forms.PaintEventHandler(this.dataGridView1_Paint);
             // 
             // dataGridView2
             // 
+            this.dataGridView2.AllowUserToAddRows = false;
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -95,11 +98,12 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dataGridView2.Location = new System.Drawing.Point(12, 522);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView2.Location = new System.Drawing.Point(24, 1011);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowTemplate.Height = 33;
-            this.dataGridView2.Size = new System.Drawing.Size(751, 305);
+            this.dataGridView2.Size = new System.Drawing.Size(1502, 591);
             this.dataGridView2.TabIndex = 1;
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             this.dataGridView2.Paint += new System.Windows.Forms.PaintEventHandler(this.dataGridView2_Paint);
@@ -140,12 +144,12 @@
             this.btnCancelar.BackgroundImage = global::Tienda_Ropa.Properties.Resources.logout_icon_150x150;
             this.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(1076, 656);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCancelar.MaximumSize = new System.Drawing.Size(133, 148);
-            this.btnCancelar.MinimumSize = new System.Drawing.Size(133, 148);
+            this.btnCancelar.Location = new System.Drawing.Point(2152, 1271);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.btnCancelar.MaximumSize = new System.Drawing.Size(266, 287);
+            this.btnCancelar.MinimumSize = new System.Drawing.Size(266, 287);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(133, 148);
+            this.btnCancelar.Size = new System.Drawing.Size(266, 287);
             this.btnCancelar.TabIndex = 3;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -156,10 +160,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 68);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(26, 132);
+            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(245, 28);
+            this.label1.Size = new System.Drawing.Size(494, 56);
             this.label1.TabIndex = 4;
             this.label1.Text = "Productos en Venta:";
             // 
@@ -167,20 +171,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 490);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(26, 949);
+            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(425, 28);
+            this.label2.Size = new System.Drawing.Size(846, 56);
             this.label2.TabIndex = 5;
             this.label2.Text = "Productos agregados a la Compra:";
             // 
             // btnAgregarCompra
             // 
             this.btnAgregarCompra.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarCompra.Location = new System.Drawing.Point(12, 441);
-            this.btnAgregarCompra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAgregarCompra.Location = new System.Drawing.Point(24, 854);
+            this.btnAgregarCompra.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnAgregarCompra.Name = "btnAgregarCompra";
-            this.btnAgregarCompra.Size = new System.Drawing.Size(260, 37);
+            this.btnAgregarCompra.Size = new System.Drawing.Size(520, 72);
             this.btnAgregarCompra.TabIndex = 6;
             this.btnAgregarCompra.Text = "Agregar Producto";
             this.btnAgregarCompra.UseVisualStyleBackColor = true;
@@ -190,9 +194,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(859, 549);
+            this.label3.Location = new System.Drawing.Point(1718, 1064);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 25);
+            this.label3.Size = new System.Drawing.Size(126, 46);
             this.label3.TabIndex = 7;
             this.label3.Text = "Total:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -202,12 +207,12 @@
             this.btnHacerVenta.BackgroundImage = global::Tienda_Ropa.Properties.Resources.compra_ini;
             this.btnHacerVenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnHacerVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHacerVenta.Location = new System.Drawing.Point(845, 656);
-            this.btnHacerVenta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnHacerVenta.MaximumSize = new System.Drawing.Size(133, 148);
-            this.btnHacerVenta.MinimumSize = new System.Drawing.Size(133, 148);
+            this.btnHacerVenta.Location = new System.Drawing.Point(1690, 1271);
+            this.btnHacerVenta.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.btnHacerVenta.MaximumSize = new System.Drawing.Size(266, 287);
+            this.btnHacerVenta.MinimumSize = new System.Drawing.Size(266, 287);
             this.btnHacerVenta.Name = "btnHacerVenta";
-            this.btnHacerVenta.Size = new System.Drawing.Size(133, 148);
+            this.btnHacerVenta.Size = new System.Drawing.Size(266, 287);
             this.btnHacerVenta.TabIndex = 2;
             this.btnHacerVenta.Text = "Hacer Venta";
             this.btnHacerVenta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -219,19 +224,20 @@
             this.cbxCliente.BackColor = System.Drawing.SystemColors.Menu;
             this.cbxCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxCliente.FormattingEnabled = true;
-            this.cbxCliente.Location = new System.Drawing.Point(135, 23);
-            this.cbxCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbxCliente.Location = new System.Drawing.Point(270, 45);
+            this.cbxCliente.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.cbxCliente.Name = "cbxCliente";
-            this.cbxCliente.Size = new System.Drawing.Size(183, 33);
+            this.cbxCliente.Size = new System.Drawing.Size(362, 54);
             this.cbxCliente.TabIndex = 12;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(13, 25);
+            this.label7.Location = new System.Drawing.Point(26, 48);
+            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(118, 33);
+            this.label7.Size = new System.Drawing.Size(225, 63);
             this.label7.TabIndex = 13;
             this.label7.Text = "Cliente:";
             // 
@@ -240,21 +246,22 @@
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.Red;
-            this.lblTotal.Location = new System.Drawing.Point(997, 580);
+            this.lblTotal.Location = new System.Drawing.Point(1994, 1124);
+            this.lblTotal.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(88, 32);
+            this.lblTotal.Size = new System.Drawing.Size(173, 63);
             this.lblTotal.TabIndex = 14;
             this.lblTotal.Text = "Holi :)";
             // 
             // frmHacerVenta
             // 
             this.AcceptButton = this.btnHacerVenta;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1269, 865);
+            this.ClientSize = new System.Drawing.Size(2510, 1596);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.cbxCliente);
@@ -267,11 +274,11 @@
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1287, 912);
+            this.MaximumSize = new System.Drawing.Size(2542, 1684);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1287, 883);
+            this.MinimumSize = new System.Drawing.Size(2542, 1628);
             this.Name = "frmHacerVenta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sport Rhayno";

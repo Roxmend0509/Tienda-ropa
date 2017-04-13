@@ -41,9 +41,16 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnHacerVenta_Click(object sender, EventArgs e)
         {
-            venta.Total = double.Parse(lblTotal.Text);
-            venta.IdCliente = 
-            objVenta.insertarV();  
+            if (dataGridView2.Rows.Count > 0)
+            {
+                venta.Total = double.Parse(lblTotal.Text);
+                venta.IdCliente = int.Parse(cbxCliente.SelectedValue.ToString());
+                objVenta.insertarV(ref venta);
+            }
+            else
+            {
+                MessageBox.Show("Debes agregar productos al carrito de compra", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             
         }
 

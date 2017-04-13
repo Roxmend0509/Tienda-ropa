@@ -45,16 +45,17 @@ namespace Tienda_Ropa.DATOS
         public void insertarV(ref POJOS.clsNegVentas venta)
         {
             MySqlCommand cm = null;
-            MySqlTransaction tr = cm.Connection.BeginTransaction();
+            MySqlTransaction tr = null;
             try
             {
+                conectar();
+                tr = conexion.BeginTransaction();
                 cm = new MySqlCommand("insert into ventas values(null, @total, now(), @cliente);", conexion);
                 
-                cm.Parameters.AddWithValue("total", venta.Total);
+                cm.Parameters.AddWithValue("total", venta.Total);                
                 cm.Parameters.AddWithValue("cliente",venta.IdCliente);
                 cm.ExecuteNonQuery();
                 tr.Commit();
-                
             }
             catch (Exception ex)
             {
@@ -63,7 +64,6 @@ namespace Tienda_Ropa.DATOS
             }
             finally
             {
-                tr.Dispose();
                 cm.Dispose();
                 conexion.Close();
             }
