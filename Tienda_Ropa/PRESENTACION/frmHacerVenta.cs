@@ -41,37 +41,9 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnHacerVenta_Click(object sender, EventArgs e)
         {
-            ArrayList col1Items = new ArrayList();
-            ArrayList col2Items = new ArrayList();
-            double sub_total = 0;
-            foreach (DataGridViewRow dr in dataGridView2.Rows)
-            {
-                col1Items.Add(dr.Cells[4].Value);
-                col2Items.Add(dr.Cells[0].Value);
-            }
-            for (int i = 0; i < col1Items.Count; i++)
-            {
-                sub_total += Convert.ToDouble(col1Items[i]);
-            }
-            if (col1Items.Count > 1)
-            {
-                venta.Fecha = Fecha;
-                venta.IdCliente = Convert.ToInt32(cbxCliente.SelectedValue);
-                venta.Total = sub_total;                
-                objVenta.insertarV(ref venta);
-                venta.IdVenta = Convert.ToInt32(objVenta.NVenta());
-                for (int i = 0; i < (col2Items.Count) - 1; i++)
-                {
-                    venta.SubTotal = Convert.ToDouble(dataGridView2[4,i].Value.ToString());
-                    venta.IdProducto = Convert.ToInt32(col2Items[i]);
-                    objVenta.insertarVD(ref venta);
-                }
-                this.Close();
-            }            
-            else
-            {
-                MessageBox.Show("Ingresa algun producto");
-            }
+            venta.Total = double.Parse(lblTotal.Text);
+            venta.IdCliente = 
+            objVenta.insertarV();  
             
         }
 

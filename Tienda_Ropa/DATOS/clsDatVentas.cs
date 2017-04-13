@@ -42,29 +42,31 @@ namespace Tienda_Ropa.DATOS
         }
 
 
-        public POJOS.clsNegVentas insertarV(ref POJOS.clsNegVentas venta)
+        public void insertarV(ref POJOS.clsNegVentas venta)
         {
+            MySqlCommand cm = null;
+            MySqlTransaction tr = cm.Connection.BeginTransaction();
             try
             {
-                _adaptador.InsertCommand = new MySqlCommand("insert into Ventas (TOTAL,FECHA,IDCLIENTE) values(@TOTAL,@FECHA,@IDCLIENTE)");
-                _adaptador.InsertCommand.Parameters.AddWithValue("@TOTAL", venta.Total);
-                _adaptador.InsertCommand.Parameters.AddWithValue("@FECHA", venta.Fecha);
-                _adaptador.InsertCommand.Parameters.AddWithValue("@IDCLIENTE", venta.IdCliente);
-
-                conectar();
-                _adaptador.InsertCommand.Connection = conexion;
-                _adaptador.InsertCommand.ExecuteNonQuery();
+                cm = new MySqlCommand("insert into ventas values(null, @total, now(), @cliente);", conexion);
+                
+                cm.Parameters.AddWithValue("total", venta.Total);
+                cm.Parameters.AddWithValue("cliente",venta.IdCliente);
+                cm.ExecuteNonQuery();
+                tr.Commit();
                 
             }
-            catch (Exception error)
+            catch (Exception ex)
             {
-                MessageBox.Show(error.Message);
+                tr.Rollback();
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
+                tr.Dispose();
+                cm.Dispose();
                 conexion.Close();
             }
-            return venta;
         }
 
         public string NVenta()
@@ -90,31 +92,6 @@ namespace Tienda_Ropa.DATOS
             vd = myreader["idDVenta"].ToString();
             conexion.Close();
             return vd;
-        }
-
-
-
-        public POJOS.clsNegVentas insertarVD(ref POJOS.clsNegVentas objPr)
-        {
-            try {
-                conectar();
-                string sql = "INSERT INTO DETALLESVENTA (IDDETALLEVENTA,IDVENTA,IDPRODUCTO,IMPORTE) VALUES(null, " + objPr.IdVenta + "," + objPr.IdProducto + "," +objPr.SubTotal +" )";
-
-                MySqlCommand miCom = new MySqlCommand(sql, conexion);
-                miCom.ExecuteNonQuery();
-                miCom.Dispose();
-                
-                //return objPr;
-            }catch(Exception r)
-            {
-                MessageBox.Show(r.Message+"hola");
-            }
-            finally
-            {
-                conexion.Close();
-            }
-
-            return objPr;
         }
 
 
