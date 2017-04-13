@@ -56,7 +56,9 @@ namespace Tienda_Ropa.PRESENTACION
 
         private void btnEliminarP_Click(object sender, EventArgs e)
         {
-            
+            objNCli.IdCliente = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            clientes.eliminarCli(ref objNCli);
+            dataGridView1.DataSource = clientes.leerDatos(textBox1.Text);
         }
 
         private void btnBuscarP_Click(object sender, EventArgs e)

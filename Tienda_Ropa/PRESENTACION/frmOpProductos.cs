@@ -41,6 +41,7 @@ namespace Tienda_Ropa.PRESENTACION
         private void btnModificar_Click(object sender, EventArgs e)
         {
             new frmMoProductos(dataGridView1.CurrentRow.Cells[0].Value.ToString()).ShowDialog();
+            dataGridView1.DataSource = PRODUCTOS.leerDatos("");
         }
 
         private void btnEliminarP_Click(object sender, EventArgs e)
