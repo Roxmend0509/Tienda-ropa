@@ -45,7 +45,15 @@ namespace Tienda_Ropa.PRESENTACION
             {
                 venta.Total = double.Parse(lblTotal.Text);
                 venta.IdCliente = int.Parse(cbxCliente.SelectedValue.ToString());
-                objVenta.insertarV(ref venta);
+
+                int[] ids = new int[dataGridView2.Rows.Count];
+                for (int i = 0; i < dataGridView2.Rows.Count; i++)
+                {
+                    ids[i] = int.Parse(dataGridView2[0, i].Value.ToString());
+                }
+
+                objVenta.insertarV(ref venta, ids);
+                
             }
             else
             {

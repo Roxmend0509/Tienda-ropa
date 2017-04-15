@@ -81,6 +81,7 @@
             // dataGridView2
             // 
             this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -137,7 +138,6 @@
             this.Column5.FillWeight = 60F;
             this.Column5.HeaderText = "PRECIOVENTA";
             this.Column5.Name = "Column5";
-            this.Column5.Width = 120;
             // 
             // btnCancelar
             // 

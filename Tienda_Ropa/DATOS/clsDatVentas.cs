@@ -42,7 +42,7 @@ namespace Tienda_Ropa.DATOS
         }
 
 
-        public void insertarV(ref POJOS.clsNegVentas venta)
+        public void insertarV(ref POJOS.clsNegVentas venta, int[] ids)
         {
             MySqlCommand cm = null;
             MySqlTransaction tr = null;
@@ -55,6 +55,14 @@ namespace Tienda_Ropa.DATOS
                 cm.Parameters.AddWithValue("total", venta.Total);                
                 cm.Parameters.AddWithValue("cliente",venta.IdCliente);
                 cm.ExecuteNonQuery();
+                cm = new MySqlCommand("insert into detallesventa values(null, @idproducto, (select max(idventa) from ventas), (select precioventa from productos where idproducto = @idproducto));", conexion);
+                for (int i = 0; i < ids.Length; i++)
+                {
+                    cm.Parameters.AddWithValue("idproducto", ids[i]);
+                    cm.ExecuteNonQuery();
+                    cm.Parameters.Clear();
+                }
+
                 tr.Commit();
             }
             catch (Exception ex)
