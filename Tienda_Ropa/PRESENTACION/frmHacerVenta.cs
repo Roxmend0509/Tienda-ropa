@@ -53,6 +53,7 @@ namespace Tienda_Ropa.PRESENTACION
                 }
 
                 objVenta.insertarV(ref venta, ids);
+                this.Close();
                 
             }
             else
