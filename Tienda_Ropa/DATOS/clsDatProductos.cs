@@ -153,13 +153,13 @@ namespace Tienda_Ropa.DATOS
         }
 
 
-        public void cargarImagen(PictureBox pi)
+        public void cargarImagen(PictureBox pi, string id)
         {
             MySqlCommand cm;
             try
             {
                 conectar();
-                cm = new MySqlCommand("select imagen from productos",conexion);
+                cm = new MySqlCommand("select imagen from productos where idproducto = " + id,conexion);
                 byte[] imgArr = (byte[])cm.ExecuteScalar();
                 imgArr = (byte[])cm.ExecuteScalar();
                 using (var stream = new MemoryStream(imgArr))

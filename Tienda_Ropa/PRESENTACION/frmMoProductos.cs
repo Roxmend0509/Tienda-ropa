@@ -27,7 +27,7 @@ namespace Tienda_Ropa.PRESENTACION
             txtPrecioCompra.Text = pr.PrecioCompra+"";
             txtPrecioVenta.Text = pr.PrecioVenta + "";
             comboBox1.SelectedItem = pr.Talla;
-            new clsDatProductos().cargarImagen(picImagen);
+            new clsDatProductos().cargarImagen(picImagen, id);
 
 
         }

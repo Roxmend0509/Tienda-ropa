@@ -201,9 +201,6 @@
   <data name="txtContraseña.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="txtContraseña.Text" xml:space="preserve">
-    <value>mike</value>
-  </data>
   <data name="&gt;&gt;txtContraseña.Name" xml:space="preserve">
     <value>txtContraseña</value>
   </data>
@@ -714,9 +711,6 @@
   </data>
   <data name="txtUsuario.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="txtUsuario.Text" xml:space="preserve">
-    <value>mike</value>
   </data>
   <data name="&gt;&gt;txtUsuario.Name" xml:space="preserve">
     <value>txtUsuario</value>
