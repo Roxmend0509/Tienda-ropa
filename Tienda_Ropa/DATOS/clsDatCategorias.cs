@@ -50,10 +50,10 @@ namespace Tienda_Ropa.DATOS
         }
 
         /// <summary>
-        /// 
+        /// metodo usado para hacer inserciones en la tabla de categorias
         /// 
         /// </summary>
-        /// <param name="cat"></param>
+        /// <param name="cat">objeto de tipo categoria usado para obtener los datos a insertar</param>
         /// 
         /// <returns></returns>
         public POJOS.clsNegCategorias insertarC(ref POJOS.clsNegCategorias cat)
