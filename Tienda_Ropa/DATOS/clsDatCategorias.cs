@@ -107,7 +107,11 @@ namespace Tienda_Ropa.DATOS
             return cat;
         }
 
-
+        /// <summary>
+        /// Metodo usado para realizar busquedas de alguna categoria especifica
+        /// </summary>
+        /// <param name="cat">objeto con la información de la categoria que se desea buscar</param>
+        /// <returns></returns>
         public POJOS.clsNegCategorias buscarCATE(ref POJOS.clsNegCategorias cat)
         {
             conectar();
@@ -134,6 +138,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
+        /// <summary>
+        /// Metodo usado para obtener datos haciendo un filtro por id
+        /// </summary>
+        /// <param name="objx">objeto de tipo categoria del cual se obtiene el id para hacer el filtro</param>
+        /// <returns></returns>
         public DataTable leerDatosIDC(ref POJOS.clsNegCategorias objx)
         {
             DataTable datos = new DataTable();
