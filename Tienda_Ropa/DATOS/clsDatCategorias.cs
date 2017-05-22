@@ -30,7 +30,7 @@ namespace Tienda_Ropa.DATOS
         /// metodo usado para leer datos de categorias dando la posibilidad de usar un filtro por columna
         /// </summary>
         /// <param name="filtro">palabra usada para realizar el filtro por columna</param>
-        /// <returns></returns>
+        /// <returns>databable con la información solicitada</returns>
         public DataTable leerDatos(string filtro)
         {
             DataTable datos = new DataTable();
@@ -55,7 +55,7 @@ namespace Tienda_Ropa.DATOS
         /// </summary>
         /// <param name="cat">objeto de tipo categoria usado para obtener los datos a insertar</param>
         /// 
-        /// <returns></returns>
+        /// <returns>retorna un objeto de tipo categoria</returns>
         public POJOS.clsNegCategorias insertarC(ref POJOS.clsNegCategorias cat)
         {
             try
@@ -111,7 +111,7 @@ namespace Tienda_Ropa.DATOS
         /// Metodo usado para realizar busquedas de alguna categoria especifica
         /// </summary>
         /// <param name="cat">objeto con la información de la categoria que se desea buscar</param>
-        /// <returns></returns>
+        /// <returns>retorna objeto de tipo categoria</returns>
         public POJOS.clsNegCategorias buscarCATE(ref POJOS.clsNegCategorias cat)
         {
             conectar();
@@ -142,7 +142,7 @@ namespace Tienda_Ropa.DATOS
         /// Metodo usado para obtener datos haciendo un filtro por id
         /// </summary>
         /// <param name="objx">objeto de tipo categoria del cual se obtiene el id para hacer el filtro</param>
-        /// <returns></returns>
+        /// <returns>datatable con la informacion que necesita la tabla</returns>
         public DataTable leerDatosIDC(ref POJOS.clsNegCategorias objx)
         {
             DataTable datos = new DataTable();
@@ -159,6 +159,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
+        /// <summary>
+        /// Metodo usado para obtener datos haciendo un filtro por id
+        /// </summary>
+        /// <param name="objx">objeto de tipo categoria del cual se obtiene el id para hacer el filtro</param>
+        /// <returns>objeto de tipo categoria especifico resultado de la busqueda</returns>
         public POJOS.clsNegCategorias buscarCporIDC(ref POJOS.clsNegCategorias objx)
         {
             try {
@@ -192,6 +197,10 @@ namespace Tienda_Ropa.DATOS
             return objx;
         }
 
+        /// <summary>
+        /// Meodo usado paa llenar un datagridview
+        /// </summary>
+        /// <returns>datatable con la informacion para llenar la tabla inicial del formulacio</returns>
         public DataTable Cargar()
         {
 
@@ -210,6 +219,10 @@ namespace Tienda_Ropa.DATOS
             
         }
 
+        /// <summary>
+        /// metodo utilizado para eliminar registro de la base de datos
+        /// </summary>
+        /// <param name="objP">objeto que contiene la información del dato a eliminar</param>
         public void eliminarC(ref POJOS.clsNegCategorias objP)
         {
             try
