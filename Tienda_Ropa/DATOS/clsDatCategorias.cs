@@ -10,17 +10,27 @@ using System.Drawing;
 using System.Data;
 namespace Tienda_Ropa.DATOS
 {
+    /// <summary>
+    /// Clase para interactuar con la base de datos especificamente con las categorias
+    /// </summary>
     class clsDatCategorias
     {
-        MySqlConnection conexion = new MySqlConnection();
-        private MySqlDataAdapter _adaptador = new MySqlDataAdapter();
+        MySqlConnection conexion = new MySqlConnection(); //objeto de coneccion
+        private MySqlDataAdapter _adaptador = new MySqlDataAdapter(); //objeto de tipo adaptador
 
+        /// <summary>
+        /// metodo usado para realizar la coneccion con la base de datos
+        /// </summary>
         private void conectar()
         {
             conexion.ConnectionString = "server=localhost; database=bdropa;user id =root; password=Miguel2909; pooling=false";
             conexion.Open();
         }
-
+        /// <summary>
+        /// metodo usado para leer datos de categorias dando la posibilidad de usar un filtro por columna
+        /// </summary>
+        /// <param name="filtro">palabra usada para realizar el filtro por columna</param>
+        /// <returns></returns>
         public DataTable leerDatos(string filtro)
         {
             DataTable datos = new DataTable();
