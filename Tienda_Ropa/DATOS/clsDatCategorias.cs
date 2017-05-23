@@ -222,7 +222,7 @@ namespace Tienda_Ropa.DATOS
         /// <summary>
         /// metodo utilizado para eliminar registro de la base de datos
         /// </summary>
-        /// <param name="objP">objeto que contiene la información del dato a eliminar</param>
+        /// <param name="objP">objeto que contiene la información del dato a eliminar el registro</param>
         public void eliminarC(ref POJOS.clsNegCategorias objP)
         {
             try
@@ -252,7 +252,11 @@ namespace Tienda_Ropa.DATOS
             }
         }
     
-
+        /// <summary>
+        /// metodo usado para modificar un elemento en la base de datos
+        /// </summary>
+        /// <param name="cat">objeto de tipo categoria usado para obtener los datos nuevos para modificar</param>
+        /// <returns>regresa un objeto de tipo categoria</returns>
         public POJOS.clsNegCategorias modificarC(ref POJOS.clsNegCategorias cat)
         {
             try

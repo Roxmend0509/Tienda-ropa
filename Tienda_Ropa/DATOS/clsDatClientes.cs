@@ -11,17 +11,28 @@ using System.Data;
 
 namespace Tienda_Ropa.DATOS
 {
+    /// <summary>
+    /// Clase usada como inteface para la base de datos con los datos de clientes
+    /// </summary>
     class clsDatClientes
     {
-        MySqlConnection conexion = new MySqlConnection();
-        private MySqlDataAdapter _adaptador = new MySqlDataAdapter();
+        MySqlConnection conexion = new MySqlConnection(); //objeto de tipo conexion
+        private MySqlDataAdapter _adaptador = new MySqlDataAdapter(); //objeto de tipo adaptador
 
+        /// <summary>
+        /// Metodo usado para estableces una coneccion con la base de datos
+        /// </summary>
         private void conectar()
         {
             conexion.ConnectionString = "server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false";
             conexion.Open();
         }
 
+        /// <summary>
+        /// Metodo usado para leer datos aplicando un filtro
+        /// </summary>
+        /// <param name="filtro">cadena con el texto que se dea usar para el filtro</param>
+        /// <returns>retorna un objeto de datatable para actualizar la tabla data grid view</returns>
         public DataTable leerDatos(string filtro)
         {
             DataTable datos = new DataTable();
@@ -40,7 +51,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
-
+        /// <summary>
+        /// Metodo usado para insertar en la base de datos
+        /// </summary>
+        /// <param name="cli">objeto de tipo cliente usado para insertarlo en la base de datos</param>
+        /// <returns>retorna un objeto de tipo cliente con la nueva informacion</returns>
         public POJOS.clsNegClientes insertarCl(ref POJOS.clsNegClientes cli)
         {
             try
@@ -68,7 +83,11 @@ namespace Tienda_Ropa.DATOS
             return cli;
         }
 
-
+        /// <summary>
+        /// metodo usado para buscar clientes
+        /// </summary>
+        /// <param name="clien">objeo de tipo cliente para obtener la información de busqueda</param>
+        /// <returns>objeto encontrado de tipo cliente</returns>
         public POJOS.clsNegClientes buscarCLI(ref POJOS.clsNegClientes clien)
         {
             conectar();
@@ -96,7 +115,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
-
+        /// <summary>
+        /// metodo usado para leer los datos del cliente pudiendo aplicar un filtro
+        /// </summary>
+        /// <param name="objx">objeto de tipo cliente usado para hacer el filtro</param>
+        /// <returns>objeto de tipo cliente resultado del filtro</returns>
         public DataTable leerDatosIDCli(ref POJOS.clsNegClientes objx)
         {
             DataTable datos = new DataTable();
@@ -113,6 +136,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
+        /// <summary>
+        /// metodo uado para buscar un cliente por su id
+        /// </summary>
+        /// <param name="objx">objeto de tipo cliente usado para aplicar el filtro</param>
+        /// <returns>objeto de tipo de tipo cliente resultado de aplciar el filtro</returns>
         public POJOS.clsNegClientes buscarCliporIDCli(ref POJOS.clsNegClientes objx)
         {
             conectar();
@@ -138,7 +166,10 @@ namespace Tienda_Ropa.DATOS
 
         }
 
-
+        /// <summary>
+        /// metodo usado para eliminar un cliente de la base de datos
+        /// </summary>
+        /// <param name="objP">objeto de tipo cliente que se eliminará</param>
         public void eliminarCli(ref POJOS.clsNegClientes objP)
         {
             //conectar();
@@ -165,6 +196,11 @@ namespace Tienda_Ropa.DATOS
             }
         }
 
+        /// <summary>
+        /// metodo de usado para modificar un cliente
+        /// </summary>
+        /// <param name="cli">nuevos datos del cliente para remplazar los anteriores</param>
+        /// <returns>objeto de tipo cliente con sus nuevos valores</returns>
         public POJOS.clsNegClientes modificarCl(ref POJOS.clsNegClientes cli)
         {
             try
@@ -191,6 +227,10 @@ namespace Tienda_Ropa.DATOS
             return cli;
         }
 
+        /// <summary>
+        /// metodo usado para cargar la tabla principal
+        /// </summary>
+        /// <returns>objeto de tipo datatable usado para dar los datos del grid</returns>
         public DataTable Cargar()
         {
             using (MySqlConnection conn = new MySqlConnection("server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false"))

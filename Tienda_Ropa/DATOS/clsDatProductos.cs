@@ -12,17 +12,28 @@ using Tienda_Ropa.POJOS;
 
 namespace Tienda_Ropa.DATOS
 {
+    /// <summary>
+    /// clase usada para servir como interfaz con la base de datos y los objetos de tipo producto
+    /// </summary>
     class clsDatProductos
     {
-        MySqlConnection conexion = new MySqlConnection("server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false");
-        private MySqlDataAdapter _adaptador = new MySqlDataAdapter();
+        MySqlConnection conexion = new MySqlConnection("server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false"); //cadena de conexion
+        private MySqlDataAdapter _adaptador = new MySqlDataAdapter();//objeto de tipo adaptador
 
+        /// <summary>
+        /// metodo usado para hacer coneccion con la base de datos 
+        /// </summary>
         private void conectar()
         {
             
             conexion.Open();
         }
 
+        /// <summary>
+        /// metodo usadopara obtener la descripcion de un producto
+        /// </summary>
+        /// <param name="i">id del producto que deseamos</param>
+        /// <returns>descripcion del producto seleccionado</returns>
         public string descripcion(int i)
         {
             conectar();
@@ -36,6 +47,11 @@ namespace Tienda_Ropa.DATOS
             return a;
         }
 
+        /// <summary>
+        /// metodo usado para cargar los datos en la tabla conla posibilidad de aplicar un filtro
+        /// </summary>
+        /// <param name="filtro">cadena usada para filtrar datos especificos</param>
+        /// <returns>datatable con los datos obtenidos</returns>
         public DataTable leerDatos(string filtro)
         {
             DataTable datos = new DataTable();
@@ -51,6 +67,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
+        /// <summary>
+        /// metodo usado para revisar si el producto existe en la base de datos
+        /// </summary>
+        /// <param name="id">id del producto a buscar</param>
+        /// <returns>true si fue encontrado o falso si no lo fue</returns>
         public bool productoExiste(int id)
         {
             MySqlCommand comando = null;
@@ -79,6 +100,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
+        /// <summary>
+        /// metodo usado para agregar un nuevo producto a la base de datos
+        /// </summary>
+        /// <param name="produc">producto que se desea ingresar</param>
+        /// <param name="pic">foto que se desea agregar</param>
         public void insertarP(ref POJOS.clsNegProductos produc, PictureBox pic)
         {
             if (!productoExiste(produc.IdProducto))
@@ -122,7 +148,11 @@ namespace Tienda_Ropa.DATOS
             }
         }
 
-
+        /// <summary>
+        /// Metodo usado para modificar productos en la base de datos
+        /// </summary>
+        /// <param name="produc">producto que se desea agregar</param>
+        /// <param name="pic">foto que se desea agregar</param>
         public void modificarP(ref POJOS.clsNegProductos produc, PictureBox pic)
         {
             
@@ -152,7 +182,11 @@ namespace Tienda_Ropa.DATOS
                     conexion.Close();          
         }
 
-
+        /// <summary>
+        /// metodo usado para obtener la imagen de la base de datos
+        /// </summary>
+        /// <param name="pi">picturebox donde se cargara la foto</param>
+        /// <param name="id">id del producto del cual se desea obtener la foto</param>
         public void cargarImagen(PictureBox pi, string id)
         {
             MySqlCommand cm;
@@ -175,7 +209,11 @@ namespace Tienda_Ropa.DATOS
             }
         }
 
-
+        /// <summary>
+        /// metodo usado para buscar un producto
+        /// </summary>
+        /// <param name="produc">objeto de producto que contiene los datos necesarios para realizar la busqueda</param>
+        /// <returns>objeto producto obtenido de la busqueda</returns>
         public POJOS.clsNegProductos buscarPRO(ref POJOS.clsNegProductos produc)
         {
             conectar();
@@ -207,7 +245,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
-
+        /// <summary>
+        /// metodo usado para leer datos usando un filtro
+        /// </summary>
+        /// <param name="objx"></param>
+        /// <returns></returns>
         public DataTable leerDatosID(ref POJOS.clsNegProductos objx)
         {
             DataTable datos = new DataTable();
