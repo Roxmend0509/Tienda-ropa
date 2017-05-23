@@ -16,10 +16,15 @@ namespace Tienda_Ropa.PRESENTACION
         {
             InitializeComponent();
         }
-
+        //objetos que se usarán en la interfaz
         POJOS.clsNegProveedores objNegProveedores = new POJOS.clsNegProveedores();
         DATOS.clsDatProveedores objDatProveedores = new DATOS.clsDatProveedores();
 
+        /// <summary>
+        /// Boton que realiza la captura de datos de las cajas de texto
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             try
@@ -46,12 +51,18 @@ namespace Tienda_Ropa.PRESENTACION
                 MessageBox.Show(r.Message);
             }
         }
-
+        /// <summary>
+        /// Boton encargado de cerrar la ventana actual 
+        /// </summary>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtIdProveedor_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -71,7 +82,11 @@ namespace Tienda_Ropa.PRESENTACION
                 e.Handled = true;
             }
         }
-
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -96,7 +111,11 @@ namespace Tienda_Ropa.PRESENTACION
         {
 
         }
-
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtTelefono_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))

@@ -9,6 +9,9 @@ using System.Drawing;
 
 namespace Tienda_Ropa.POJOS
 {
+    /// <summary>
+    /// Clase para los getters y setter de Productos
+    /// </summary>
     class clsNegProductos
     {
         private int _IdProducto;

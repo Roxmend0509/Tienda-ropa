@@ -17,7 +17,7 @@ namespace Tienda_Ropa.PRESENTACION
         {
             InitializeComponent();
         }
-
+        //Abre el reporte
         private void frmReportes_Load(object sender, EventArgs e)
         {
             new clsDatVentas().reporte(this.dataGridView1);

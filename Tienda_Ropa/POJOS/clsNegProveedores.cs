@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tienda_Ropa.POJOS
 {
+    /// <summary>
+    /// Clase para los getters y setter de proveedores
+    /// </summary>
     class clsNegProveedores
     {
         private int _IdProveedor;
