@@ -291,3 +291,6 @@ C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Rop
 C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.PRESENTACION.frmReporte.resources
 C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.Properties.Resources.resources
 C:\Users\Roxi-\Desktop\ProyectoMike\Tienda_Ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.csproj.GenerateResource.Cache
+C:\Users\mario\OneDrive\Documentos\Tienda-ropa\Tienda_Ropa\bin\Debug\Tienda_Ropa.exe.config
+C:\Users\mario\OneDrive\Documentos\Tienda-ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.exe
+C:\Users\mario\OneDrive\Documentos\Tienda-ropa\Tienda_Ropa\obj\Debug\Tienda_Ropa.pdb
