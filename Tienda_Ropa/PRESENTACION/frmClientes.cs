@@ -45,12 +45,22 @@ namespace Tienda_Ropa.PRESENTACION
         {
 
         }
-
+        /// <summary>
+        /// boton que cierra la interfaz sin interactuar con la base de datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtIdCliente_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -71,6 +81,12 @@ namespace Tienda_Ropa.PRESENTACION
             }
         }
 
+
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))

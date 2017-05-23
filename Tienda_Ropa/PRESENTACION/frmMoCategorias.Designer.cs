@@ -43,23 +43,23 @@
             // 
             this.txtDescripcion.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtDescripcion.Location = new System.Drawing.Point(87, 92);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDescripcion.Location = new System.Drawing.Point(116, 113);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDescripcion.MaxLength = 45;
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(226, 69);
+            this.txtDescripcion.Size = new System.Drawing.Size(301, 85);
             this.txtDescripcion.TabIndex = 9;
             // 
             // txtNombre
             // 
             this.txtNombre.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombre.Location = new System.Drawing.Point(87, 60);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Location = new System.Drawing.Point(116, 74);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNombre.MaxLength = 15;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(226, 13);
+            this.txtNombre.Size = new System.Drawing.Size(301, 15);
             this.txtNombre.TabIndex = 8;
             // 
             // txtIdCategoria
@@ -67,11 +67,11 @@
             this.txtIdCategoria.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtIdCategoria.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIdCategoria.Enabled = false;
-            this.txtIdCategoria.Location = new System.Drawing.Point(87, 30);
-            this.txtIdCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIdCategoria.Location = new System.Drawing.Point(116, 37);
+            this.txtIdCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIdCategoria.MaxLength = 5;
             this.txtIdCategoria.Name = "txtIdCategoria";
-            this.txtIdCategoria.Size = new System.Drawing.Size(146, 13);
+            this.txtIdCategoria.Size = new System.Drawing.Size(195, 15);
             this.txtIdCategoria.TabIndex = 7;
             this.txtIdCategoria.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIdCategoria_KeyPress);
             // 
@@ -79,12 +79,12 @@
             // 
             this.btnAceptar.BackgroundImage = global::Tienda_Ropa.Properties.Resources.Check_icon;
             this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAceptar.Location = new System.Drawing.Point(335, 33);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnAceptar.MaximumSize = new System.Drawing.Size(50, 40);
-            this.btnAceptar.MinimumSize = new System.Drawing.Size(50, 40);
+            this.btnAceptar.Location = new System.Drawing.Point(447, 41);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAceptar.MaximumSize = new System.Drawing.Size(67, 49);
+            this.btnAceptar.MinimumSize = new System.Drawing.Size(67, 49);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(50, 40);
+            this.btnAceptar.Size = new System.Drawing.Size(67, 49);
             this.btnAceptar.TabIndex = 11;
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -93,12 +93,12 @@
             // 
             this.btnCancelar.BackgroundImage = global::Tienda_Ropa.Properties.Resources.logout_icon_150x1502;
             this.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCancelar.Location = new System.Drawing.Point(335, 97);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnCancelar.MaximumSize = new System.Drawing.Size(50, 40);
-            this.btnCancelar.MinimumSize = new System.Drawing.Size(50, 40);
+            this.btnCancelar.Location = new System.Drawing.Point(447, 119);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCancelar.MaximumSize = new System.Drawing.Size(67, 49);
+            this.btnCancelar.MinimumSize = new System.Drawing.Size(67, 49);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(50, 40);
+            this.btnCancelar.Size = new System.Drawing.Size(67, 49);
             this.btnCancelar.TabIndex = 12;
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
@@ -107,10 +107,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 91);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(8, 112);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 16);
+            this.label3.Size = new System.Drawing.Size(93, 19);
             this.label3.TabIndex = 15;
             this.label3.Text = "Descripción:";
             // 
@@ -118,10 +117,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(29, 57);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(39, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 16);
+            this.label2.Size = new System.Drawing.Size(68, 19);
             this.label2.TabIndex = 14;
             this.label2.Text = "Nombre:";
             // 
@@ -129,22 +127,21 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 27);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(8, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 16);
+            this.label1.Size = new System.Drawing.Size(96, 19);
             this.label1.TabIndex = 13;
             this.label1.Text = "IdCategoria:";
             // 
             // frmMoCategorias
             // 
             this.AcceptButton = this.btnAceptar;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(404, 181);
+            this.ClientSize = new System.Drawing.Size(536, 213);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -154,14 +151,15 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(420, 220);
+            this.MaximumSize = new System.Drawing.Size(554, 260);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(420, 220);
+            this.MinimumSize = new System.Drawing.Size(554, 260);
             this.Name = "frmMoCategorias";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sport Rhayno";
+            this.Load += new System.EventHandler(this.frmMoCategorias_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -13,11 +13,14 @@ namespace Tienda_Ropa
 {
     public partial class frmCompras : Form
     {
+        /// <summary>
+        /// constructos usado para inicializar el formulario
+        /// </summary>
         public frmCompras()
         {
             InitializeComponent();
         }
-
+        //objetos usados en la interfaz
         POJOS.clsNegProductos objNegProductos = new POJOS.clsNegProductos();
         DATOS.clsDatProductos objDatProductos = new DATOS.clsDatProductos();
         DATOS.clsDatProveedores objDatProveedores = new DATOS.clsDatProveedores();
@@ -28,7 +31,11 @@ namespace Tienda_Ropa
         {
 
         }
-
+        /// <summary>
+        /// boton aceptar usado para insertar un nuevo producto en la base de datos con los datos ingresados en la interfaz
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAceptar_Click(object sender, EventArgs e)
         {
 
@@ -58,6 +65,11 @@ namespace Tienda_Ropa
             }
         }
 
+        /// <summary>
+        /// evento que al dar clic en la imagen abre un dialogo para cargar imagen
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnImagen_Click(object sender, EventArgs e)
         {
             try
@@ -74,11 +86,21 @@ namespace Tienda_Ropa
             }
         }
 
+        /// <summary>
+        /// boton que cierra la interfaz sin interactuar con la base de datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// evento que al cargar la interfaz por completo inicializa algunos valores
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void frmCompras_Load(object sender, EventArgs e)
         {
             cbxProveedor.DataSource = objDatProveedores.Cargar();
@@ -96,6 +118,12 @@ namespace Tienda_Ropa
 
         }
 
+
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtIdProducto_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -114,6 +142,12 @@ namespace Tienda_Ropa
             }
         }
 
+
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtExistencia_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))

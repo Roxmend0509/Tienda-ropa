@@ -10,13 +10,21 @@ using System.Windows.Forms;
 
 namespace Tienda_Ropa.DATOS
 {
+    /// <summary>
+    /// clase usada como interfaz para interactuar con usuarios de la base de datos
+    /// </summary>
     class clsDatUsuarios
     {
-
+        /// <summary>
+        /// metodo usado para verificar el acceso a sesión
+        /// </summary>
+        /// <param name="user">nombre de usuario</param>
+        /// <param name="pas">contraseña</param>
+        /// <returns>true si accede falso si no</returns>
         public bool Login(String user, String pas)
         {
-            MySqlConnection cn = new MySqlConnection("server=localhost; database=bdRopa; user=root; pwd=Miguel2909");
-            MySqlDataReader rd = null;
+            MySqlConnection cn = new MySqlConnection("server=localhost; database=bdRopa; user=root; pwd=Miguel2909"); //objeto de tipo conexion
+            MySqlDataReader rd = null; //objeto data reader
 
             try
             {

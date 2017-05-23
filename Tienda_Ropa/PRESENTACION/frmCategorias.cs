@@ -12,14 +12,22 @@ namespace Tienda_Ropa.PRESENTACION
 {
     public partial class frmCategorias : Form
     {
+        /// <summary>
+        /// constructor vacio usado para inicializar componentes
+        /// </summary>
         public frmCategorias()
         {
             InitializeComponent();
         }
-
+        //objetos que se usarán en la interfaz
         POJOS.clsNegCategorias objNegCategorias = new POJOS.clsNegCategorias();
         DATOS.clsDatCategorias objDatCategorias = new DATOS.clsDatCategorias();
-
+        
+        /// <summary>
+        /// boton que agrega una nueva categoria a la base de datos con los datos ingresados en la interfaz
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if ((txtIdCategoria.Text != "") & (txtNombre.Text != ""))
@@ -40,11 +48,22 @@ namespace Tienda_Ropa.PRESENTACION
             }
         }
 
+        /// <summary>
+        /// cierra la interfaz sin interactuar con la base de datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtIdCategoria_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))

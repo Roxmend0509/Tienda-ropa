@@ -12,18 +12,35 @@ namespace Tienda_Ropa.PRESENTACION
 {
     public partial class frmMoClientes : Form
     {
+        /// <summary>
+        /// constructor vacio para inicializar
+        /// </summary>
         public frmMoClientes()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// objetos que se usan en el formulario
+        /// </summary>
         POJOS.clsNegClientes objNegClientes = new POJOS.clsNegClientes();
         DATOS.clsDatClientes objDatClientes = new DATOS.clsDatClientes();
+
+        /// <summary>
+        /// el boton cancelar cierra el formulario actual sin interactuar con la base de datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// boton usado para modificar el cliente usando los datos que se ingresaron en la interfaz
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if ((txtIdCliente.Text != "") & (txtNombre.Text != ""))
@@ -47,6 +64,11 @@ namespace Tienda_Ropa.PRESENTACION
 
         }
 
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtIdCliente_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -67,6 +89,12 @@ namespace Tienda_Ropa.PRESENTACION
             }
         }
 
+
+        /// <summary>
+        /// metodo para filtrar teclas y realizar validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -85,6 +113,11 @@ namespace Tienda_Ropa.PRESENTACION
             {
                 e.Handled = true;
             }
+        }
+
+        private void frmMoClientes_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

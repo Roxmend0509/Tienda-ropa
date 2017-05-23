@@ -14,15 +14,23 @@ namespace Tienda_Ropa.DATOS
 {
     class clsDatProveedores
     {
-        MySqlConnection conexion = new MySqlConnection();
-        private MySqlDataAdapter _adaptador = new MySqlDataAdapter();
+        MySqlConnection conexion = new MySqlConnection(); //objeto de conexion
+        private MySqlDataAdapter _adaptador = new MySqlDataAdapter(); //objeto adaptador
 
+        /// <summary>
+        /// metodo usado para entablar conexion con la base de datos
+        /// </summary>
         private void conectar()
         {
             conexion.ConnectionString = "server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false";
             conexion.Open();
         }
 
+        /// <summary>
+        /// metodo usado para leer los datos aplicando un filtro
+        /// </summary>
+        /// <param name="filtro">texto usado para realizar un filtro</param>
+        /// <returns>datatable con los proveedores que se filtraron</returns>
         public DataTable leerDatos(string filtro)
         {
             DataTable datos = new DataTable();
@@ -41,7 +49,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
-
+        /// <summary>
+        /// metodo usado para insertar un proveedor en la base de datos
+        /// </summary>
+        /// <param name="proved">objeto proveedor a insertar</param>
+        /// <returns>objeto proveedor insertado</returns>
         public POJOS.clsNegProveedores insertarPro(ref POJOS.clsNegProveedores proved)
         {
             try
@@ -69,7 +81,11 @@ namespace Tienda_Ropa.DATOS
             return proved;
         }
 
-
+        /// <summary>
+        /// metodo usado para buscar proveedor
+        /// </summary>
+        /// <param name="prove">objeto proveedor a ser buscado</param>
+        /// <returns>obeto proveedor encontrado</returns>
         public POJOS.clsNegProveedores buscarPRO(ref POJOS.clsNegProveedores prove)
         {
             conectar();
@@ -97,7 +113,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
-
+        /// <summary>
+        /// metodo usado para leer datos aplicando un filtrado por id
+        /// </summary>
+        /// <param name="objx">objeto proveedor el cual proveera el id</param>
+        /// <returns>datatable con los datos obtenidos con el filtrado</returns>
         public DataTable leerDatosIDP(ref POJOS.clsNegProveedores objx)
         {
             DataTable datos = new DataTable();
@@ -114,6 +134,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
+        /// <summary>
+        /// metodo usado para buscar con id
+        /// </summary>
+        /// <param name="objx">objeto proveedor usado para dar los datos de busqueda</param>
+        /// <returns>objeto proveedor encontrado</returns>
         public POJOS.clsNegProveedores buscarPporIDP(ref POJOS.clsNegProveedores objx)
         {
             conectar();
@@ -140,7 +165,10 @@ namespace Tienda_Ropa.DATOS
         }
 
         
-
+        /// <summary>
+        /// metodo usado para cargar la tabla principal con los datos pudiendo aplicar un filtro
+        /// </summary>
+        /// <returns>datatable con los datos obtenidos</returns>
         public DataTable Cargar()
 {
         using (MySqlConnection conn = new MySqlConnection("server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false"))
@@ -157,7 +185,10 @@ namespace Tienda_Ropa.DATOS
 
 
 }
-
+        /// <summary>
+        /// metodo usado para eliminar un proveedor
+        /// </summary>
+        /// <param name="objP">objeto proveedor el cual dará los datos necesarios para ubicar el registro a eliminar</param>
         public void eliminarPRO(ref POJOS.clsNegProveedores objP)
         {
             //conectar();
@@ -182,6 +213,12 @@ namespace Tienda_Ropa.DATOS
                 conexion.Close();
             }
         }
+
+        /// <summary>
+        /// metodo usado para modificar un proveedor
+        /// </summary>
+        /// <param name="proved">objeto proveedor con nuevos datos</param>
+        /// <returns>objeto proveedor con nuevos datos</returns>
         public POJOS.clsNegProveedores modificarPro(ref POJOS.clsNegProveedores proved)
         {
             try

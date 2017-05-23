@@ -12,6 +12,9 @@ namespace Tienda_Ropa
 {
     public partial class frmLogin : Form
     {
+        /// <summary>
+        /// constructor vacio que inicializa componentes y centra la ventana
+        /// </summary>
         public frmLogin()
         {
             InitializeComponent();
@@ -28,6 +31,11 @@ namespace Tienda_Ropa
 
         }
 
+        /// <summary>
+        /// boton usado para validar el inicio de sesion y entrar al sistema
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             try {
@@ -50,6 +58,11 @@ namespace Tienda_Ropa
             }
         }
 
+        /// <summary>
+        /// boton cancelar que cierra la interfaz y termina el programa
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -60,11 +73,21 @@ namespace Tienda_Ropa
 
         }
 
+        /// <summary>
+        /// label que al dar clic abre el fb oficial de sport rhayno
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void label3_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.facebook.com/SportRhayno/?fref=ts");
         }
 
+        /// <summary>
+        /// foto que al dar clic abre el fb de sport rahyno
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.facebook.com/SportRhayno/?fref=ts");

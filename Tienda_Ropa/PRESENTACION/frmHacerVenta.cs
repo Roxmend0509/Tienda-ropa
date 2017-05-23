@@ -14,16 +14,20 @@ namespace Tienda_Ropa.PRESENTACION
     public partial class frmHacerVenta : Form
     {
 
-
+        //Objetos utilizados en el formulario
         DATOS.clsDatProductos productos = new DATOS.clsDatProductos();
         POJOS.clsNegVentas venta = new POJOS.clsNegVentas();
         DATOS.clsDatVentas objVenta = new DATOS.clsDatVentas();
         DATOS.clsDatClientes objDatClientes = new DATOS.clsDatClientes();
+
         DateTime Fecha = DateTime.Now;
         Double iva;
         POJOS.clsNegProductos objPJ = new POJOS.clsNegProductos();
         int MP = 0;
 
+        /// <summary>
+        /// contructor vacio usado para inicializar la interfaz
+        /// </summary>
         public frmHacerVenta()
         {
             InitializeComponent();
@@ -34,11 +38,21 @@ namespace Tienda_Ropa.PRESENTACION
 
         }
 
+        /// <summary>
+        /// boton cancelar que cierra la interfaz sin interactuar con la base de datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// boton que realiza la venta con los productos seleccionados
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnHacerVenta_Click(object sender, EventArgs e)
         {
             if (dataGridView2.Rows.Count > 0)
@@ -63,6 +77,9 @@ namespace Tienda_Ropa.PRESENTACION
             
         }
 
+        /// <summary>
+        /// metodo que calcula el precio total de la venta y lo muestra en un label
+        /// </summary>
         public void total()
         {
             double sub_total = 0;
@@ -74,6 +91,11 @@ namespace Tienda_Ropa.PRESENTACION
             lblTotal.Text = Convert.ToString(sub_total);
         }
 
+        /// <summary>
+        /// metodo que inicializa valores al ser cargada la interfaz
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void frmHacerVenta_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = productos.leerDatos("");
@@ -90,6 +112,11 @@ namespace Tienda_Ropa.PRESENTACION
 
         }
 
+        /// <summary>
+        /// boton utilizado para agregar un elemento al carrito de compras
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAgregarCompra_Click(object sender, EventArgs e)
         {
 
@@ -124,6 +151,11 @@ namespace Tienda_Ropa.PRESENTACION
 
         }
 
+        /// <summary>
+        /// evento que actualiza el total al repintarse el gridview
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void dataGridView2_Paint(object sender, PaintEventArgs e)
         {
             total();

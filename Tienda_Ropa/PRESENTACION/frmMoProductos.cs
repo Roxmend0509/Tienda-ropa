@@ -14,7 +14,11 @@ namespace Tienda_Ropa.PRESENTACION
 {
     public partial class frmMoProductos : Form
     {
-
+        /// <summary>
+        /// constructor usado para cargar la información actual del producto
+        /// para posteriormente ser modificada
+        /// </summary>
+        /// <param name="id">id del producto que se modificara</param>
         public frmMoProductos(string id)
         {
             InitializeComponent();
@@ -32,15 +36,27 @@ namespace Tienda_Ropa.PRESENTACION
 
         }
 
+        /// <summary>
+        /// constructor vacio
+        /// </summary>
         public frmMoProductos()
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// objetos utilizados
+        /// </summary>
         POJOS.clsNegProductos objNegProductos = new POJOS.clsNegProductos();
         DATOS.clsDatProductos objDatProductos = new DATOS.clsDatProductos();
         DATOS.clsDatProveedores objDatProveedores = new DATOS.clsDatProveedores();
         DATOS.clsDatCategorias objDatCategoria = new DATOS.clsDatCategorias();
 
+        /// <summary>
+        /// boton que al ser accionado modificará el producto con los valores que hayan sido ingresados en el formulario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if ((txtIdProducto.Text != "") & (txtNombre.Text != "") & (comboBox1.Text != "") & (txtPrecioCompra.Text != "") &
@@ -69,11 +85,21 @@ namespace Tienda_Ropa.PRESENTACION
             }
         }
 
+        /// <summary>
+        /// metodo usado para cancelar la edicion el cual cierra el formulario y no hace cambios en la base de datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// boton usado para abrir la interfaz para cargar una imagen
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnImagen_Click(object sender, EventArgs e)
         {
             try
@@ -90,6 +116,11 @@ namespace Tienda_Ropa.PRESENTACION
             }
         }
 
+        /// <summary>
+        /// Metodo que se ejecuta al ser cargado el formulario en el cual se inicializn algunos valores como los nombres
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void frmMoProductos_Load(object sender, EventArgs e)
         {
             cbxProveedor.DataSource = objDatProveedores.Cargar();
@@ -102,6 +133,11 @@ namespace Tienda_Ropa.PRESENTACION
             cbxCategoria.ValueMember = "IDCATEGORIA";
         }
 
+        /// <summary>
+        /// metodo usado para hacer filtrado de teclas y hacer validacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtExistencia_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))

@@ -11,18 +11,28 @@ using System.Data;
 
 namespace Tienda_Ropa.DATOS
 {
+    /// <summary>
+    /// clase usada como interfaz para interactuar con las ventas de la base de datos
+    /// </summary>
     class clsDatVentas
     {
-        MySqlConnection conexion = new MySqlConnection();
-        private MySqlDataAdapter _adaptador = new MySqlDataAdapter();
+        MySqlConnection conexion = new MySqlConnection(); //objeto de conexion
+        private MySqlDataAdapter _adaptador = new MySqlDataAdapter(); //objeto adaptador
         string vd;
 
+        /// <summary>
+        /// metodo usado para realizar la conexion
+        /// </summary>
         private void conectar()
         {
             conexion.ConnectionString = "server=localhost; database=bdRopa;user id =root; password=Miguel2909; pooling=false";
             conexion.Open();
         }
 
+        /// <summary>
+        /// metodo usado para leer todos los datos de la base de datos
+        /// </summary>
+        /// <returns></returns>
         public DataTable leerDatos()
         {
             DataTable datos = new DataTable();
@@ -41,7 +51,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
-
+        /// <summary>
+        /// metodo usado para insertar una nueva venta en la base de datos
+        /// </summary>
+        /// <param name="venta">objeto de venta a ser insertado</param>
+        /// <param name="ids">arreglo de ids los cuales estan involucrados en la venta</param>
         public void insertarV(ref POJOS.clsNegVentas venta, int[] ids)
         {
             MySqlCommand cm = null;
@@ -77,6 +91,10 @@ namespace Tienda_Ropa.DATOS
             }
         }
 
+        /// <summary>
+        /// metodo usado para conocer la ultima venta realizada
+        /// </summary>
+        /// <returns>ultima fecha realizada</returns>
         public string NVenta()
         {
             conectar();
@@ -90,6 +108,10 @@ namespace Tienda_Ropa.DATOS
             return nv;
         }
 
+        /// <summary>
+        /// metodo usado para obtener el maximo detalle de venta
+        /// </summary>
+        /// <returns>obtiene el maximo detalle de venta</returns>
         public string NDVenta()
         {
             conectar();
@@ -102,7 +124,11 @@ namespace Tienda_Ropa.DATOS
             return vd;
         }
 
-
+        /// <summary>
+        /// metodo usado para modificar una venta
+        /// </summary>
+        /// <param name="venta">objeto de venta con los nuevos valores</param>
+        /// <returns>venta actualizada con sus nuevos valores</returns>
         public POJOS.clsNegProductos modificarV(ref POJOS.clsNegProductos venta)
         {
             conectar();
@@ -136,6 +162,11 @@ namespace Tienda_Ropa.DATOS
             return venta;
         }
 
+        /// <summary>
+        /// metodo usado para obtener los detalles de todas las ventas filtrado por id de venta
+        /// </summary>
+        /// <param name="idventa">id de la venta que se desea filtrar</param>
+        /// <returns>arreglo de ventas obtenidos con el filtrado</returns>
         public List<POJOS.clsNegVentas> ObtenerDetallesV(int idventa)
         {
             conectar();
@@ -160,6 +191,10 @@ namespace Tienda_Ropa.DATOS
             return detalles;
         }
 
+        /// <summary>
+        /// metodo usado para mostrar la informacion de la venta
+        /// </summary>
+        /// <param name="dvgDatos">tabla donde se mostraran los datos</param>
         public void reporte(DataGridView dvgDatos)
         {
             // Se abre la conexion

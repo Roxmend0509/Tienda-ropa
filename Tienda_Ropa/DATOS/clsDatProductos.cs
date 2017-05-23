@@ -248,8 +248,8 @@ namespace Tienda_Ropa.DATOS
         /// <summary>
         /// metodo usado para leer datos usando un filtro
         /// </summary>
-        /// <param name="objx"></param>
-        /// <returns></returns>
+        /// <param name="objx">objeto de tipo producto usado para obtener el cirterio de filtro</param>
+        /// <returns>datatable con los datos obtenidos</returns>
         public DataTable leerDatosID(ref POJOS.clsNegProductos objx)
         {
             DataTable datos = new DataTable();
@@ -266,6 +266,11 @@ namespace Tienda_Ropa.DATOS
 
         }
 
+        /// <summary>
+        /// metodo usado para buscar un producto por su id
+        /// </summary>
+        /// <param name="objx">objeto de tipo producto usado para obtener el id a buscar</param>
+        /// <returns>objeto producto encontrado</returns>
         public POJOS.clsNegProductos buscarPporID(ref POJOS.clsNegProductos objx)
         {
             conectar();
@@ -294,6 +299,10 @@ namespace Tienda_Ropa.DATOS
 
         }
 
+        /// <summary>
+        /// metodo usado para eliminar un producto
+        /// </summary>
+        /// <param name="id">id del producto que se desea eliminar</param>
         public void eliminarP(int id)
         {
             
